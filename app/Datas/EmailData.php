@@ -13,9 +13,21 @@ class EmailData extends Data
 {
     public string $to;
 
+<<<<<<< HEAD
     public ?string $from = null;
 
     public ?string $from_email = null;
+=======
+<<<<<<< HEAD
+    public ?string $from = null;
+
+    public ?string $from_email = null;
+=======
+    public string $from;
+
+    public string $from_email;
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
 
     public string $subject;
 
@@ -55,11 +67,25 @@ class EmailData extends Data
 
     public function getFrom(): Address
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
         if (!isset($this->from)) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->from = $from;
         }
         if (!isset($this->from_email)) {
+<<<<<<< HEAD
+=======
+=======
+        if ($this->from == null) {
+            Assert::string($from = config('mail.from.name', 'Default Sender'));
+            $this->from = $from;
+        }
+        if ($this->from_email == null) {
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->from_email = $from_email;
         }
@@ -69,7 +95,15 @@ class EmailData extends Data
 
     public function getMimeEmail(): MimeEmail
     {
+<<<<<<< HEAD
         if (!isset($this->body)) {
+=======
+<<<<<<< HEAD
+        if (!isset($this->body)) {
+=======
+        if ($this->body == null) {
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
             $this->body = strip_tags($this->body_html);
         }
 
@@ -78,7 +112,15 @@ class EmailData extends Data
             ->to($this->to)
             ->subject(strip_tags($this->subject))
             ->html($this->body_html)
+<<<<<<< HEAD
             ->text($this->body);
+=======
+<<<<<<< HEAD
+            ->text($this->body);
+=======
+            ->text(strip_tags($this->body));
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
 
         foreach ($this->attachments as $attachment) {
             Assert::string($attachment);

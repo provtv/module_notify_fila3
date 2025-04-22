@@ -41,10 +41,23 @@
 <body>
     <div class="container">
         <div class="header">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
             <h1>{{ optional($email_data)->subject }}</h1>
         </div>
         <div class="content">
             {!! optional($email_data)->body_html !!}
+<<<<<<< HEAD
+=======
+=======
+            <h1>{{ $email_data->subject }}</h1>
+        </div>
+        <div class="content">
+            {!! $email_data->body_html !!}
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
         </div>
         <div class="footer">
             <p>&copy; {{ date('Y') }} Your Company Name. All rights reserved.</p>

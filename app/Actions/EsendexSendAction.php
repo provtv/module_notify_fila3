@@ -77,7 +77,15 @@ class EsendexSendAction
             return [];
         }
 
+<<<<<<< HEAD
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+=======
+<<<<<<< HEAD
+        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+=======
+        $res = json_decode((string) $response, true, 512, JSON_THROW_ON_ERROR);
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
 
         dddx($res);
         if (! is_array($res)) {
@@ -117,6 +125,14 @@ class EsendexSendAction
             return null;
         }
 
+<<<<<<< HEAD
         return explode(';', is_string($response) ? $response : (string) $response);
+=======
+<<<<<<< HEAD
+        return explode(';', is_string($response) ? $response : (string) $response);
+=======
+        return explode(';', (string) $response);
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
     }
 }

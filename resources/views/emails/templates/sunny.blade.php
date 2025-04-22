@@ -2,7 +2,15 @@
 	<head>
 		<title>{{ isset($senderName) ? $senderName : '' }}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<<<<<<< HEAD
 		<style type="text/css">{!! optional($_theme)->cssInLine('notify::css/sunny.css') !!}</style>
+=======
+<<<<<<< HEAD
+		<style type="text/css">{!! optional($_theme)->cssInLine('notify::css/sunny.css') !!}</style>
+=======
+		<style type="text/css">{!! $_theme->cssInLine('notify::css/sunny.css') !!}</style>
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
 		@if (isset($css))
 		<style type="text/css">
 			{{ $css }}

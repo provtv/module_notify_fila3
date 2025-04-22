@@ -2,7 +2,15 @@
 	<head>
 		<title>{{ isset($senderName) ? $senderName : '' }}.</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<<<<<<< HEAD
 		<style type="text/css">{{ optional($_theme)->cssInLine('notify::css/ark.css') }}</style>
+=======
+<<<<<<< HEAD
+		<style type="text/css">{{ optional($_theme)->cssInLine('notify::css/ark.css') }}</style>
+=======
+		<style type="text/css">{{ $_theme->cssInLine('notify::css/ark.css') }}</style>
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
 		@if (isset($css))
 		<style type="text/css">
 			{{ $css }}
@@ -11,7 +19,15 @@
 	</head>
 	<body>
 	{{--
+<<<<<<< HEAD
 	[{{ optional($_theme)->cssInLine('notify::css/ark.css') }}]
+=======
+<<<<<<< HEAD
+	[{{ optional($_theme)->cssInLine('notify::css/ark.css') }}]
+=======
+	[{{ $_theme->cssInLine('notify::css/ark.css') }}]
+>>>>>>> 9165bf1 (.)
+>>>>>>> 5a1e6f8 (fix: auto resolve conflict)
 	<pre>{{ print_r($logo) }}</pre>
 	--}}
 	<table id="background-table" border="0" cellpadding="0" cellspacing="0" width="100%">
