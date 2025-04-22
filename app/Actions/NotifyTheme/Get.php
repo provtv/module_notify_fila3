@@ -66,9 +66,9 @@ class Get
 
         $view_params['now'] = now()->format('d/m/Y');
 
-<<<<<<< HEAD
         $body_html = $theme->body_html;
         $subject = $theme->subject;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         $body_html = $theme->body_html;
@@ -78,6 +78,8 @@ class Get
         $subject = (string) $theme->subject;
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
 
         if ($theme->theme !== 'empty') {
             $view_params['logo'] = $theme->logo;
@@ -87,14 +89,18 @@ class Get
             $logoWidth = '100';
             $logoHeight = '100';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
 
             if (isset($theme->logo['path']) && is_string($theme->logo['path'])) {
                 $logoPath = $theme->logo['path'];
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -105,18 +111,24 @@ class Get
             
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
             if (isset($theme->logo['width'])) {
                 if (is_string($theme->logo['width'])) {
                     $logoWidth = $theme->logo['width'];
                 } elseif (is_numeric($theme->logo['width'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
                     $logoWidth = (string) $theme->logo['width'];
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -126,18 +138,24 @@ class Get
             
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
             if (isset($theme->logo['height'])) {
                 if (is_string($theme->logo['height'])) {
                     $logoHeight = $theme->logo['height'];
                 } elseif (is_numeric($theme->logo['height'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
                     $logoHeight = (string) $theme->logo['height'];
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -147,6 +165,8 @@ class Get
             
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
             $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
@@ -155,9 +175,9 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
-<<<<<<< HEAD
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
@@ -167,6 +187,8 @@ class Get
                 $subject = Str::replace('##'.$k.'##', $v, $subject);
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
             }
         }
 

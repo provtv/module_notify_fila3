@@ -11,8 +11,9 @@ use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\XotBaseResource\RelationManagers\XotBaseRelationManager;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -21,6 +22,8 @@ use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelati
 =======
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;

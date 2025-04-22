@@ -4,6 +4,7 @@
         {{ $this->emailForm }}
         {{ $error_message ?? '--' }}
 <<<<<<< HEAD
+<<<<<<< HEAD
         <x-filament-panels::form.actions :actions="$this->getEmailFormActions()" />
 =======
 <<<<<<< HEAD
@@ -14,6 +15,11 @@
         />
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+        <x-filament-panels::form.actions
+            :actions="$this->getEmailFormActions()"
+        />
+>>>>>>> ba48b8c (.)
 
         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
 

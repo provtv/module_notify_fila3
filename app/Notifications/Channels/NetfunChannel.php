@@ -20,9 +20,12 @@ class NetfunChannel
     {
         $smsData = $themeNotification->toSms($notifiable);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
 
         // Otteniamo l'istanza dell'action e verifichiamo che sia del tipo corretto
         $netfunSendAction = app(NetfunSendAction::class);
@@ -32,6 +35,7 @@ class NetfunChannel
         $data = $netfunSendAction->execute($smsData);
         Assert::isArray($data, 'Il risultato di NetfunSendAction deve essere un array');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -46,6 +50,8 @@ class NetfunChannel
         
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
         // Incrementiamo il contatore SMS
         $notifiable->increase('sms', $data);
         /*

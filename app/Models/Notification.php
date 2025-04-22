@@ -5,7 +5,7 @@ namespace Modules\Notify\Models;
 use Modules\Xot\Models\BaseModel;
 
 /**
- * 
+ *
  *
  * @property string $id
  * @property string $type
@@ -19,9 +19,9 @@ use Modules\Xot\Models\BaseModel;
  * @property string|null $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null $deleted_by
-<<<<<<< HEAD
  * @property-read \Illuminate\Database\Eloquent\Model|null $creator
  * @property-read \Illuminate\Database\Eloquent\Model|null $updater
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  * @property-read \Illuminate\Database\Eloquent\Model|null $creator
@@ -31,6 +31,8 @@ use Modules\Xot\Models\BaseModel;
  * @property-read \Modules\Broker\Models\Profile|null $updater
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification newQuery()

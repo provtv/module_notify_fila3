@@ -46,16 +46,16 @@ class EsendexSendAction
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
-        
+
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
         if (!is_string($auth[0])) {
             $auth[0] = '';
         }
-        
+
         if (!is_string($auth[1])) {
             $auth[1] = '';
         }
-        
+
         curl_setopt(
             $ch,
             CURLOPT_HTTPHEADER,
@@ -77,8 +77,8 @@ class EsendexSendAction
             return [];
         }
 
-<<<<<<< HEAD
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
@@ -86,6 +86,8 @@ class EsendexSendAction
         $res = json_decode((string) $response, true, 512, JSON_THROW_ON_ERROR);
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
 
         dddx($res);
         if (! is_array($res)) {
@@ -125,8 +127,8 @@ class EsendexSendAction
             return null;
         }
 
-<<<<<<< HEAD
         return explode(';', is_string($response) ? $response : (string) $response);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         return explode(';', is_string($response) ? $response : (string) $response);
@@ -134,5 +136,7 @@ class EsendexSendAction
         return explode(';', (string) $response);
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
     }
 }

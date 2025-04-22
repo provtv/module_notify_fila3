@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"send-mail-command","class":"SendMailCommand","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\SendMailCommand"},{"name":"telegram-webhook","class":"TelegramWebhook","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\TelegramWebhook"}]
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ba48b8c (.)
 [
     {
         "name": "send-mail-command",
@@ -18,7 +21,10 @@
         "ns": "Modules\\Notify\\Console\\Commands\\TelegramWebhook"
     }
 ]
+<<<<<<< HEAD
 =======
 [{"name":"send-mail-command","class":"SendMailCommand","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\SendMailCommand"},{"name":"telegram-webhook","class":"TelegramWebhook","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\TelegramWebhook"}]
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)

@@ -8,7 +8,7 @@ use Filament\Forms\Components\TextInput;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\XotBaseResource\RelationManagers\XotBaseRelationManager;
 
 class NotificationResource extends XotBaseResource
 {
@@ -51,6 +51,7 @@ class NotificationResource extends XotBaseResource
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    
 =======
 <<<<<<< HEAD
@@ -59,4 +60,7 @@ class NotificationResource extends XotBaseResource
 
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+
+>>>>>>> ba48b8c (.)
 }

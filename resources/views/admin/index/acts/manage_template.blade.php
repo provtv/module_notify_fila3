@@ -5,6 +5,7 @@
     @foreach ($rows as $row)
         <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <td>{{ $row-> }}</td>
 =======
 <<<<<<< HEAD
@@ -13,6 +14,9 @@
             <td>{{ $row->id }}</td>
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+            <td>{{ $row->id }}</td>
+>>>>>>> ba48b8c (.)
 
         </tr>
     @endforeach

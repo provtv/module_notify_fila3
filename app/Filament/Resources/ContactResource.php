@@ -4,14 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-<<<<<<< HEAD
 use Filament\Forms;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Filament\Forms;
 =======
 >>>>>>> 9165bf1 (.)
 >>>>>>> 5a1e6f8 (fix: auto resolve conflict)
+=======
+>>>>>>> ba48b8c (.)
 use Filament\Forms\Components\Component;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Pages\PageRegistration;
