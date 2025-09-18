@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 namespace Modules\Notify\Notifications\Channels;
 
 use Illuminate\Notifications\Notification;
@@ -14,8 +18,7 @@ class TelegramChannel
      * @param \Illuminate\Notifications\Notification $notification
      * @return void
      */
-    public function send($notifiable, Notification $notification)
-    {
+    public function send(): void {
         if (!method_exists($notification, 'toTelegram')) {
             throw new \Exception('Il metodo toTelegram() non è definito nella notifica.');
         }

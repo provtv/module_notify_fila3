@@ -1,4 +1,4 @@
-<html>
+>
 
 <head>
     <title>{{ isset($senderName) ? $senderName : '' }}.</title>

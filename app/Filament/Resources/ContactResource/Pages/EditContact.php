@@ -14,6 +14,7 @@ class EditContact extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecor
 
     protected function getHeaderActions(): array
     {
+        /** @var array<string, \Filament\Actions\Action> */
         return [
             DeleteAction::make(),
         ];

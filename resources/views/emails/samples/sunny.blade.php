@@ -1,4 +1,4 @@
-@extends('beautymail::templates.sunny')
+nds('beautymail::templates.sunny')
 
 @section('content')
 

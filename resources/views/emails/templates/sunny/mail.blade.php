@@ -1,4 +1,4 @@
-@extends('notify::emails.templates.sunny')
+nds('notify::emails.templates.sunny')
 
 @section('content')
 

@@ -1,4 +1,4 @@
-<x-filament-panels::page>
+lament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
             Test Invio Telegram

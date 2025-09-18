@@ -24,6 +24,8 @@ class ListNotifyThemes extends XotBaseListRecords
 
     public function getTableColumns(): array
     {
+        /** @var array<string, \Filament\Tables\Columns\Column> */
+        /** @var array<string, \Filament\Tables\Columns\Column> */
         return [
             'id' => Columns\TextColumn::make('id')
                 ->sortable(),

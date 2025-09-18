@@ -25,8 +25,7 @@ class SmsChannel
     /**
      * Crea una nuova istanza del canale.
      */
-    public function __construct(SmsActionFactory $factory)
-    {
+    public function __construct(): void {
         $this->factory = $factory;
     }
 
@@ -38,8 +37,7 @@ class SmsChannel
      * @return array|null Risultato dell'operazione o null in caso di errore
      * @throws \Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
-    public function send($notifiable, Notification $notification)
-    {
+    public function send(): void {
         if (! method_exists($notification, 'toSms')) {
             throw new Exception('Notification does not have toSms method');
         }

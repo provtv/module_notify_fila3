@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 namespace Modules\Notify\Filament\Resources;
 
 use Filament\Forms\Components\DateTimePicker;
@@ -18,6 +22,8 @@ class NotificationResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             'type' => TextInput::make('type')
                 ->required()

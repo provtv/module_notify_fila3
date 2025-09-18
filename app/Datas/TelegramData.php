@@ -25,15 +25,5 @@ class TelegramData extends Data
      * @param array|null $media Array di media da allegare al messaggio (immagini, video, documenti)
      * @param string $type Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
      */
-    public function __construct(
-        public string $chatId,
-        public string $text,
-        public ?string $parseMode = null,
-        public bool $disableWebPagePreview = false,
-        public bool $disableNotification = false,
-        public ?int $replyToMessageId = null,
-        public ?array $replyMarkup = null,
-        public ?array $media = null,
-        public string $type = 'text',
-    ) {}
+    public function __construct(): void {}
 }

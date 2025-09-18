@@ -1,4 +1,4 @@
-<x-filament::icon-button
+lament::icon-button
     :badge="$unreadNotificationsCount"
     color="gray"
     icon="heroicon-o-bell"

@@ -1,4 +1,3 @@
-{{--
 <x-mail::message>
 # Introduction
 

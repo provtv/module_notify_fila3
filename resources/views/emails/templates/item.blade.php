@@ -1,3 +1,3 @@
-@include('notify::emails.templates.'.$theme.'.contentStart')
+ude('notify::emails.templates.'.$theme.'.contentStart')
 {!! $html !!}
 @include('notify::emails.templates.'.$theme.'.contentEnd')

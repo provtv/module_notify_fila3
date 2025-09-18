@@ -28,8 +28,7 @@ final class SendOfficialTelegramAction
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $token = config('services.telegram.token');
         if (!is_string($token)) {
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');

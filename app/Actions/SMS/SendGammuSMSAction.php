@@ -35,8 +35,7 @@ final class SendGammuSMSAction implements SmsActionContract
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $this->gammuData = GammuData::make();
         
         if (!$this->gammuData->path) {

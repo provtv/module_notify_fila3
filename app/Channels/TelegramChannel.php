@@ -25,8 +25,7 @@ class TelegramChannel
     /**
      * Crea una nuova istanza del canale.
      */
-    public function __construct(TelegramActionFactory $factory)
-    {
+    public function __construct(): void {
         $this->factory = $factory;
     }
     
@@ -38,8 +37,7 @@ class TelegramChannel
      * @return array|null Risultato dell'operazione o null in caso di errore
      * @throws \Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
      */
-    public function send($notifiable, Notification $notification)
-    {
+    public function send(): void {
         if (! method_exists($notification, 'toTelegram')) {
             throw new Exception('Notification does not have toTelegram method');
         }

@@ -28,8 +28,7 @@ final class SendVonageWhatsAppAction
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $apiKey = config('services.vonage.api_key');
         if (!is_string($apiKey)) {
             throw new Exception('put [VONAGE_KEY] variable to your .env and config [services.vonage.api_key]');

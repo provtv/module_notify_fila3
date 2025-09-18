@@ -30,8 +30,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $accountSid = config('services.twilio.account_sid');
         if (!is_string($accountSid)) {
             throw new Exception('put [TWILIO_ACCOUNT_SID] variable to your .env and config [services.twilio.account_sid]');

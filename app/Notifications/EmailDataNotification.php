@@ -28,8 +28,7 @@ class EmailDataNotification extends Notification
      *
      * @param EmailData $emailData I dati dell'email da inviare
      */
-    public function __construct(EmailData $emailData)
-    {
+    public function __construct(): void {
         $this->emailData = $emailData;
     }
 

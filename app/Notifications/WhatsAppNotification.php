@@ -41,8 +41,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
      * @param string|WhatsAppData $content The content of the WhatsApp message or WhatsAppData object
      * @param array<string, mixed> $config Configuration options including provider
      */
-    public function __construct(string|WhatsAppData $content, array $config = [])
-    {
+    public function __construct(): void {
         if ($content instanceof WhatsAppData) {
             $this->whatsappData = $content;
         } else {

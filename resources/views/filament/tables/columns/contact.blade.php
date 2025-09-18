@@ -1,4 +1,3 @@
-@php
     $record = $getRecord();
 @endphp
 

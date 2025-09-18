@@ -1,4 +1,4 @@
-<x-filament::page>
+lament::page>
 
     <x-filament-panels::form wire:submit="sendEmail()">
         {{ $this->emailForm }}

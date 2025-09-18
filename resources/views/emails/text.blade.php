@@ -1,1 +1,1 @@
-{{ $email_data->body }}
+mail_data->body }}

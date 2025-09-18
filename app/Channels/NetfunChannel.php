@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 namespace Modules\Notify\Channels;
 
 use Illuminate\Notifications\Notification;
@@ -10,8 +14,7 @@ class NetfunChannel
 {
     protected SendNetfunSMSAction $sendSMSAction;
     
-    public function __construct(SendNetfunSMSAction $sendSMSAction)
-    {
+    public function __construct(): void {
         $this->sendSMSAction = $sendSMSAction;
     }
     
@@ -22,8 +25,7 @@ class NetfunChannel
      * @param \Illuminate\Notifications\Notification $notification
      * @return array|null
      */
-    public function send($notifiable, Notification $notification)
-    {
+    public function send(): void {
         // Ottieni il numero di telefono dal Notifiable
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
             return null;

@@ -41,8 +41,7 @@ final class SendNetfunSMSAction implements SmsActionContract
      *
      * @throws Exception Se il token API non è configurato
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         // Recupera la configurazione specifica per il provider Netfun dalla sezione drivers
         $token = config('sms.drivers.netfun.token');
         if (!is_string($token)) {

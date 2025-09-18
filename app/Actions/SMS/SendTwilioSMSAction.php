@@ -33,8 +33,7 @@ final class SendTwilioSMSAction implements SmsActionContract
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $this->twilioData = TwilioData::make();
         
         if (!$this->twilioData->account_sid) {

@@ -33,8 +33,7 @@ final class SendPlivoSMSAction implements SmsActionContract
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $this->plivoData = PlivoData::make();
         
         if (!$this->plivoData->auth_id) {

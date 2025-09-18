@@ -1,4 +1,4 @@
-@extends('notify::mail-layouts.base.default')
+nds('notify::mail-layouts.base.default')
 
 @section('content')
     <div style="text-align: center; margin-bottom: 30px;">

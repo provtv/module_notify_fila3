@@ -1,4 +1,4 @@
-@extends('notify::layouts.' . $theme ?? 'app')
+nds('notify::layouts.' . $theme ?? 'app')
 @section('content')
     {!! $body_html !!}
 @endsection

@@ -1,4 +1,4 @@
-@extends('notify::mail-layouts.base.default')
+nds('notify::mail-layouts.base.default')
 
 @section('content')
     <h1>{{ __('notify::mail.welcome.title') }}</h1>

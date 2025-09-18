@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 return [
     'welcome' => [
         'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : ''),

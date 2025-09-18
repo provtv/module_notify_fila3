@@ -1,4 +1,4 @@
-<x-filament-panels::page>
+lament-panels::page>
     <div class="space-y-6">
         <div class="p-4 bg-white rounded-lg shadow">
             <h3 class="text-lg font-medium text-gray-900">

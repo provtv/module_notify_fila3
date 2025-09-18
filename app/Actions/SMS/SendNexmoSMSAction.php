@@ -33,8 +33,7 @@ final class SendNexmoSMSAction implements SmsActionContract
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $this->nexmoData = NexmoData::make();
         
         if (!$this->nexmoData->key) {

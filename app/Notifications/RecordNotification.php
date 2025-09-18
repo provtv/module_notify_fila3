@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 namespace Modules\Notify\Notifications;
 
 use Illuminate\Support\Str;
@@ -17,8 +21,7 @@ class RecordNotification extends Notification
     public array $data=[];
     public array $attachments=[];
 
-    public function __construct(Model $record, string $slug)
-    {
+    public function __construct(): void {
         $this->record = $record;
         $this->slug = Str::slug($slug);
         

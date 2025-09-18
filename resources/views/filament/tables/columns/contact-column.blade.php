@@ -1,4 +1,3 @@
-{{--
 /**
  * ContactColumn View - Rendering contatti con icone Heroicon
  * 

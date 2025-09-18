@@ -1,1 +1,1 @@
-notify
+y

@@ -25,15 +25,7 @@ class EmailData extends Data
 
     public array $attachments = [];
 
-    public function __construct(
-        string $to,
-        string $subject,
-        string $body_html,
-        array $attachments = [],
-        ?string $from = null,
-        ?string $from_email = null,
-        ?string $body = null
-    ) {
+    public function __construct(): void {
         Assert::email($to, 'Invalid "to" email format');
         $this->to = $to;
         if (! is_string($from)) {

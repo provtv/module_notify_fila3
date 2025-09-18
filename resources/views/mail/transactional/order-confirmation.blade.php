@@ -1,4 +1,4 @@
-@extends('notify::mail-layouts.base.default')
+nds('notify::mail-layouts.base.default')
 
 @section('content')
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">

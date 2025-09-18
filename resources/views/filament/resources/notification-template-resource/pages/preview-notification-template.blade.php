@@ -1,4 +1,4 @@
-<x-filament::page>
+lament::page>
     <x-filament::card>
         <div class="space-y-6">
             <div>

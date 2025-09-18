@@ -1,4 +1,4 @@
-<x-filament-panels::page>
+lament-panels::page>
     <form wire:submit.prevent="sendSMS">
         <x-filament::section>
             <x-slot name="heading">

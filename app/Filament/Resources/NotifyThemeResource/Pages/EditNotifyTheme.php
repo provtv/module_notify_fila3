@@ -17,6 +17,7 @@ class EditNotifyTheme extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditR
 
     protected function getHeaderActions(): array
     {
+        /** @var array<string, \Filament\Actions\Action> */
         return [
             DeleteAction::make(),
         ];

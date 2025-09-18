@@ -23,13 +23,5 @@ class WhatsAppData extends Data
      * @param array|null $template Dati del template per messaggi strutturati (supportati solo da alcuni provider)
      * @param string $type Tipo di messaggio: 'text', 'media', 'template', ecc.
      */
-    public function __construct(
-        public string $to,
-        public string $body,
-        public ?string $from = null,
-        public ?array $media = null,
-        public ?array $buttons = null,
-        public ?array $template = null,
-        public string $type = 'text',
-    ) {}
+    public function __construct(): void {}
 }

@@ -37,8 +37,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      * @param string $message
      * @param array $options
      */
-    public function __construct(string $message, array $options = [])
-    {
+    public function __construct(): void {
         $this->message = $message;
         $this->options = $options;
     }

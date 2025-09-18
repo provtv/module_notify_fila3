@@ -1,4 +1,4 @@
-@extends('beautymail::templates.minty')
+nds('beautymail::templates.minty')
 
 @section('content')
 

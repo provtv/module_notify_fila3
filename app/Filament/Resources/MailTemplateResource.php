@@ -26,6 +26,8 @@ class MailTemplateResource extends LangBaseResource
      */
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             'mailable' => Forms\Components\TextInput::make('mailable')
                 ->required()

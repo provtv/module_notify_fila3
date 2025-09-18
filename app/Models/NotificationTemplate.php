@@ -230,8 +230,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param \Illuminate\Database\Eloquent\Builder $query
      * @return \Illuminate\Database\Eloquent\Builder
      */
-    public function scopeActive($query)
-    {
+    public function scopeActive(): void {
         return $query->where('is_active', true);
     }
 
@@ -242,8 +241,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param string $channel
      * @return \Illuminate\Database\Eloquent\Builder
      */
-    public function scopeForChannel($query, string $channel)
-    {
+    public function scopeForChannel(): void {
         return $query->whereJsonContains('channels', $channel);
     }
 
@@ -254,8 +252,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param string $category
      * @return \Illuminate\Database\Eloquent\Builder
      */
-    public function scopeForCategory($query, string $category)
-    {
+    public function scopeForCategory(): void {
         return $query->where('category', $category);
     }
 

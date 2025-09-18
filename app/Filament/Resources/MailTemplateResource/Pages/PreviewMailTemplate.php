@@ -25,6 +25,7 @@ class PreviewMailTemplate extends Page
 
     protected function getHeaderActions(): array
     {
+        /** @var array<string, \Filament\Actions\Action> */
         return [
             Action::make('back')
                 ->label(__('notify::mail.template.preview.actions.back.label'))

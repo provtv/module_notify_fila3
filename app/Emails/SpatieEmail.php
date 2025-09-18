@@ -42,8 +42,7 @@ class SpatieEmail extends TemplateMailable
 
     
 
-    public function __construct(Model $record, string $slug)
-    {
+    public function __construct(): void {
         $this->slug = Str::slug($slug);
         
         $tpl=MailTemplate::firstOrCreate([

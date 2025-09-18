@@ -23,9 +23,7 @@ final class FirebaseCloudMessagingChannel
 {
     private static LoggerInterface $logger;
 
-    public function __construct(
-        private readonly Messaging $firebaseCloudMessaging,
-    ) {
+    public function __construct(): void {
         self::$logger = Log::driver('firebase') ?? Log::getDefaultDriver();
     }
 

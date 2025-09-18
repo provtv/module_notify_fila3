@@ -40,8 +40,7 @@ class SmsNotification extends Notification implements ShouldQueue
      * @param string|SmsData $content The content of the SMS or SmsData object
      * @param array<string, mixed> $config Configuration options including provider
      */
-    public function __construct(string|SmsData $content, array $config = [])
-    {
+    public function __construct(): void {
         if ($content instanceof SmsData) {
             $this->smsData = $content;
         } else {

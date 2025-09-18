@@ -33,8 +33,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      *
      * @param FirebaseNotificationData $data The Firebase notification data (I dati della notifica Firebase)
      */
-    public function __construct(public FirebaseNotificationData $data)
-    {
+    public function __construct(): void {
     }
 
     /**

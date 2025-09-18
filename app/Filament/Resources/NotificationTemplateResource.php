@@ -25,6 +25,8 @@ class NotificationTemplateResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
                     Forms\Components\TextInput::make('name')
                         ->required()

@@ -1,4 +1,4 @@
-@extends('notify::emails.templates.ark')
+nds('notify::emails.templates.ark')
 
 @section('content')
 

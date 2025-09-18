@@ -24,8 +24,7 @@ class NetfunSendAction
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         // Prepare the action for execution, leveraging constructor injection.
         $token = config('services.netfun.token');
         if (! is_string($token)) {

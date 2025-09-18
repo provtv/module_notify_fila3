@@ -42,13 +42,7 @@ class SendNotificationJob implements ShouldQueue
      * @param array $channels I canali da utilizzare
      * @param array $options Opzioni aggiuntive per l'invio
      */
-    public function __construct(
-        protected Model $recipient,
-        protected string $templateCode,
-        protected array $data = [],
-        protected array $channels = [],
-        protected array $options = []
-    ) {
+    public function __construct(): void {
         $triesConfig = config('notify.queue.tries', 3);
         $this->tries = is_numeric($triesConfig) ? (int) $triesConfig : 3;
         

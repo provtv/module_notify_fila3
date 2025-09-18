@@ -1,4 +1,4 @@
-{{-- Visualizzazione parametri come badge --}}
+Visualizzazione parametri come badge --}}
 @if(!empty($params))
     <div class="space-y-2">
         <div class="text-sm font-medium text-gray-900 dark:text-gray-100">

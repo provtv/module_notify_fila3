@@ -28,8 +28,7 @@ final class SendFacebookWhatsAppAction
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $accessToken = config('services.facebook.access_token');
         if (!is_string($accessToken)) {
             throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');

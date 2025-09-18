@@ -47,8 +47,7 @@ class GenericNotification extends Notification implements ShouldQueue
      * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
      * @param array<string, mixed> $data Dati aggiuntivi per la notifica
      */
-    public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
-    {
+    public function __construct(): void {
         $this->title = $title;
         $this->message = $message;
         $this->channels = $channels;

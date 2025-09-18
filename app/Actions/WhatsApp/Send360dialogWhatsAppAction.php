@@ -27,8 +27,7 @@ final class Send360dialogWhatsAppAction
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $apiKey = config('services.360dialog.api_key');
         if (!is_string($apiKey)) {
             throw new Exception('put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]');

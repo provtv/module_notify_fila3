@@ -1,4 +1,4 @@
-@extends('notify::layouts.master')
+nds('notify::layouts.master')
 
 @section('content')
     <h1>Hello World</h1>

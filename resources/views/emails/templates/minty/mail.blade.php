@@ -1,4 +1,4 @@
-@extends('notify::emails.templates.minty')
+nds('notify::emails.templates.minty')
 
 @section('content')
 

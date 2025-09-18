@@ -89,8 +89,7 @@ class NotificationManager
      * @param string $category La categoria dei template
      * @return \Illuminate\Database\Eloquent\Collection<NotificationTemplate>
      */
-    public function getTemplatesByCategory(string $category)
-    {
+    public function getTemplatesByCategory(): void {
         return NotificationTemplate::where('category', $category)
             ->where('is_active', true)
             ->get();
@@ -102,8 +101,7 @@ class NotificationManager
      * @param string $channel Il canale di notifica
      * @return \Illuminate\Database\Eloquent\Collection<NotificationTemplate>
      */
-    public function getTemplatesByChannel(string $channel)
-    {
+    public function getTemplatesByChannel(): void {
         return NotificationTemplate::forChannel($channel)
             ->where('is_active', true)
             ->get();

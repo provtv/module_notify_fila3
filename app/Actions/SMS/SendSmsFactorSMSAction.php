@@ -33,8 +33,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     /**
      * Create a new action instance.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $this->smsFactorData = SmsFactorData::make();
         
         if (!$this->smsFactorData->token) {
