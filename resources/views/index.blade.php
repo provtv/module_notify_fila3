@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('notify::layouts.master')
 =======
 @extends('notify::layouts.master')
@@ -7,6 +8,9 @@ nds('notify::layouts.master')
 =======
 @extends('notify::layouts.master')
 >>>>>>> 9b05d0a6 (.)
+=======
+@extends('notify::layouts.master')
+>>>>>>> 4bf9ea78 (.)
 
 @section('content')
     <h1>Hello World</h1>

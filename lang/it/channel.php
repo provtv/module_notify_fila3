@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -14,6 +15,9 @@ return [
 =======
 return [
 >>>>>>> 9b05d0a6 (.)
+=======
+return [
+>>>>>>> 4bf9ea78 (.)
     'navigation' => [
         'group' => 'Sistema',
         'label' => 'Canali di Notifica',
@@ -186,9 +190,12 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 ];

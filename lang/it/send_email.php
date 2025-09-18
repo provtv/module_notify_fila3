@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -398,6 +399,8 @@ return array (
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 return [
     'resource' => [
         'name' => 'Invio Email',
@@ -436,6 +439,9 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)

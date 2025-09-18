@@ -12,6 +12,7 @@ namespace Modules\Notify\Notifications;
 use Illuminate\Bus\Queueable;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Modules\Notify\Notifications\Channels\TelegramChannel;
@@ -25,10 +26,16 @@ use Illuminate\Notifications\Notification;
 use InvalidArgumentException;
 use NotificationChannels\Telegram\TelegramMessage;
 >>>>>>> 9b05d0a6 (.)
+=======
+use Illuminate\Notifications\Notification;
+use InvalidArgumentException;
+use NotificationChannels\Telegram\TelegramMessage;
+>>>>>>> 4bf9ea78 (.)
 
 /**
  * Classe per inviare notifiche tramite Telegram.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class TelegramNotification extends Notification implements ShouldQueue
@@ -38,10 +45,14 @@ class TelegramNotification extends Notification
 =======
 class TelegramNotification extends Notification
 >>>>>>> 9b05d0a6 (.)
+=======
+class TelegramNotification extends Notification
+>>>>>>> 4bf9ea78 (.)
 {
     use Queueable;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @var string
@@ -65,20 +76,26 @@ class TelegramNotification extends Notification
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
      * Create a new notification instance.
      */
     public function __construct()
     {
         // $this->data = $data;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     }
 
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param mixed $notifiable
@@ -90,6 +107,8 @@ class TelegramNotification extends Notification
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
      * @param object $notifiable The entity to be notified
      * @return array<string>
      */
@@ -97,9 +116,12 @@ class TelegramNotification extends Notification
     {
         return ['telegram'];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     }
 
     /**
@@ -119,6 +141,7 @@ class TelegramNotification extends Notification
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @return string
      */
@@ -128,6 +151,8 @@ class TelegramNotification extends Notification
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
      * @param object|null $notifiable The entity to be notified
      * @return TelegramMessage
      */
@@ -154,8 +179,11 @@ class TelegramNotification extends Notification
         // (Optional) Inline Button with callback. You can handle callback in your bot instance
         // ->buttonWithCallback('Confirm', 'confirm_invoice '.$this->invoice->id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     }
 }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mail_data->body }}
 =======
 {{ $email_data->body }}
@@ -7,3 +8,6 @@ mail_data->body }}
 =======
 {{ $email_data->body }}
 >>>>>>> 9b05d0a6 (.)
+=======
+{{ $email_data->body }}
+>>>>>>> 4bf9ea78 (.)

@@ -16,19 +16,25 @@ final class PushNotificationDebugData extends Data implements Arrayable
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     public function __construct(
         private readonly CanReceivePushNotifications $notifiable,
         private readonly MobilePushNotification $notification,
         private readonly MulticastSendReport $sendReport,
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     }
 
     public static function make(

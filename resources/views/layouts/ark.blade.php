@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >
 =======
 <html>
@@ -7,6 +8,9 @@
 =======
 <html>
 >>>>>>> 9b05d0a6 (.)
+=======
+<html>
+>>>>>>> 4bf9ea78 (.)
 
 <head>
     <title>{{ isset($senderName) ? $senderName : '' }}.</title>

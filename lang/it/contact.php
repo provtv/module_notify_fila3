@@ -2,12 +2,15 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 return [
     'resource' => [
         'name' => 'Contact',
@@ -193,6 +196,7 @@ return [
             'message' => 'Impossibile verificare il contatto: :error',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ]
     ]
 =======
@@ -203,4 +207,8 @@ return [
         ],
     ],
 >>>>>>> 9b05d0a6 (.)
+=======
+        ],
+    ],
+>>>>>>> 4bf9ea78 (.)
 ];

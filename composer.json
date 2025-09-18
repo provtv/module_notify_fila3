@@ -50,6 +50,7 @@
         "phpdocumentor/type-resolver": "*",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "spatie/laravel-database-mail-templates": "^3.7",
         "symfony/http-client": "*",
         "symfony/postmark-mailer": "*"
@@ -57,14 +58,19 @@
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         "symfony/http-client": "*",
         "symfony/postmark-mailer": "*"
     },
     "require-dev": {},
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     "repositories": [
         {
             "type": "path",
@@ -103,6 +109,7 @@
     "prefer-stable": true
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -110,3 +117,6 @@
 =======
 }
 >>>>>>> 9b05d0a6 (.)
+=======
+}
+>>>>>>> 4bf9ea78 (.)

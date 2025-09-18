@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('notify::layouts.' . $theme ?? 'app')
 =======
 @extends('notify::layouts.' . $theme ?? 'app')
@@ -7,6 +8,9 @@ nds('notify::layouts.' . $theme ?? 'app')
 =======
 @extends('notify::layouts.' . $theme ?? 'app')
 >>>>>>> 9b05d0a6 (.)
+=======
+@extends('notify::layouts.' . $theme ?? 'app')
+>>>>>>> 4bf9ea78 (.)
 @section('content')
     {!! $body_html !!}
 @endsection

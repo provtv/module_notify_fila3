@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TYPE html>
 =======
 <!DOCTYPE html>
@@ -7,6 +8,9 @@ TYPE html>
 =======
 <!DOCTYPE html>
 >>>>>>> 9b05d0a6 (.)
+=======
+<!DOCTYPE html>
+>>>>>>> 4bf9ea78 (.)
 <html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="UTF-8">

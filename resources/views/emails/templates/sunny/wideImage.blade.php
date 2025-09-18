@@ -1,11 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <tr>
 >>>>>>> 90c60faa (.)
 =======
 <tr>
 >>>>>>> 9b05d0a6 (.)
+=======
+<tr>
+>>>>>>> 4bf9ea78 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>

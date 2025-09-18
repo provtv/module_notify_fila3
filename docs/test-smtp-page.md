@@ -10,6 +10,7 @@ Il sistema rileverà in automatico la configurazione di default, ma si potrà be
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
@@ -32,3 +33,6 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
 >>>>>>> 9b05d0a6 (.)
+=======
+Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
+>>>>>>> 4bf9ea78 (.)

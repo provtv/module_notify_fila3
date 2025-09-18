@@ -66,6 +66,7 @@ class SendPushNotification extends Page implements HasForms
         $callback = function ($item) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var mixed $item */
             if (!is_object($item)) {
                 return [];
@@ -96,6 +97,8 @@ class SendPushNotification extends Page implements HasForms
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
             // Verifichiamo che $item sia un oggetto
             if (!$item) {
                 return [];
@@ -133,15 +136,19 @@ class SendPushNotification extends Page implements HasForms
             
             return [$token => $fullName.' ('.$robot.') '.$tokenSuffix];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         };
 
         /**
          * Callback per filtrare i dispositivi.
          */
         $filterCallback = function ($item): bool {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!is_object($item)) {
@@ -155,6 +162,9 @@ class SendPushNotification extends Page implements HasForms
 =======
             return $item && $item->profile !== null;
 >>>>>>> 9b05d0a6 (.)
+=======
+            return $item && $item->profile !== null;
+>>>>>>> 4bf9ea78 (.)
         };
 
         $to = $devices

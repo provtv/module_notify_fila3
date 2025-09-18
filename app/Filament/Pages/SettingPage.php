@@ -6,6 +6,7 @@ namespace Modules\Notify\Filament\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Widgets\EnvWidget;
 
@@ -13,14 +14,19 @@ class SettingPage extends XotBasePage
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 use Filament\Pages\Page;
 use Modules\Xot\Filament\Widgets\EnvWidget;
 
 class SettingPage extends Page
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 {
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 

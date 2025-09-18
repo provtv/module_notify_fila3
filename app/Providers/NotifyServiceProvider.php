@@ -7,6 +7,7 @@ namespace Modules\Notify\Providers;
 // use Illuminate\Support\Facades\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Mail;
@@ -15,6 +16,8 @@ use Modules\Tenant\Services\TenantService;
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
 class NotifyServiceProvider extends XotBaseServiceProvider
@@ -30,6 +33,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         parent::boot();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         //if (! app()->environment('production')) {
             $mail=TenantService::config('mail');
             Assert::isArray($mail);
@@ -42,5 +46,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     }
 }

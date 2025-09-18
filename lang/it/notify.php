@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -14,6 +15,9 @@ return [
 =======
 return [
 >>>>>>> 9b05d0a6 (.)
+=======
+return [
+>>>>>>> 4bf9ea78 (.)
     'navigation' => [
         'name' => 'Notifica',              // Nome singolare
         'plural' => 'Notifiche',           // Nome plurale
@@ -227,6 +231,7 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'template' => [
         'navigation' => [
             'label' => 'Template Notifiche',
@@ -281,4 +286,6 @@ return [
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 ];

@@ -42,6 +42,7 @@ class SmtpData extends Data
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!isset(self::$instance[$name]) || ! self::$instance[$name] instanceof self) {
 =======
         if (! self::$instance[$name] instanceof self) {
@@ -49,6 +50,9 @@ class SmtpData extends Data
 =======
         if (! self::$instance[$name] instanceof self) {
 >>>>>>> 9b05d0a6 (.)
+=======
+        if (! self::$instance[$name] instanceof self) {
+>>>>>>> 4bf9ea78 (.)
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.'.$name);

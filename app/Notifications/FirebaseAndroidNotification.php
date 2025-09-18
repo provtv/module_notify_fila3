@@ -35,6 +35,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(public FirebaseNotificationData $data)
@@ -44,6 +45,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     public function __construct(public FirebaseNotificationData $data)
     {
 >>>>>>> 9b05d0a6 (.)
+=======
+    public function __construct(public FirebaseNotificationData $data)
+    {
+>>>>>>> 4bf9ea78 (.)
     }
 
     /**

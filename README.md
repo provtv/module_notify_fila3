@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔔 Notify - Il SISTEMA di NOTIFICHE più AVANZATO! 📱
 
 <!-- Dynamic validation badges -->
@@ -544,6 +545,8 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICE
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 # 📣 Enhance Your App with the Fila3 Notify Module! 🚀
 
 ![GitHub issues](https://img.shields.io/github/issues/laraxot/module_notify_fila3)
@@ -623,6 +626,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Marco Sottana
 Discover more of my work at marco76tv!
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)

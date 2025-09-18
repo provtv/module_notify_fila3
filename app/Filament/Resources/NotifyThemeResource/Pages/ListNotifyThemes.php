@@ -14,6 +14,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
@@ -21,6 +22,9 @@ use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelati
 =======
 use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
 >>>>>>> 9b05d0a6 (.)
+=======
+use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
+>>>>>>> 4bf9ea78 (.)
 
 
 
@@ -30,6 +34,7 @@ class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableColumns(): array
@@ -44,6 +49,10 @@ class ListNotifyThemes extends XotBaseListRecords
     public function getListTableColumns(): array
     {
 >>>>>>> 9b05d0a6 (.)
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> 4bf9ea78 (.)
         return [
             'id' => Columns\TextColumn::make('id')
                 ->sortable(),

@@ -51,6 +51,7 @@ abstract class BasePivot extends Pivot
     /** @return array<string, string> */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function casts(): array
 =======
     public function casts(): array
@@ -58,6 +59,9 @@ abstract class BasePivot extends Pivot
 =======
     public function casts(): array
 >>>>>>> 9b05d0a6 (.)
+=======
+    public function casts(): array
+>>>>>>> 4bf9ea78 (.)
     {
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int

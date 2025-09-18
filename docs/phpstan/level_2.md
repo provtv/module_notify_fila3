@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -13,6 +14,8 @@
 >>>>>>> aurmich/dev
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 # Rapporto PHPStan Livello 2 per il modulo Notify
 
 Data analisi: 2025-04-15 21:50:22
@@ -20,6 +23,7 @@ Data analisi: 2025-04-15 21:50:22
 🎉 **Congratulazioni!** Nessun errore trovato a questo livello.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 aurmich/dev
 =======
 <<<<<<< HEAD
@@ -33,3 +37,5 @@ aurmich/dev
 >>>>>>> aurmich/dev
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)

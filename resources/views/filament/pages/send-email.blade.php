@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -24,6 +25,8 @@ lament-panels::page>
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 <x-filament::page>
 
     <x-filament-panels::form wire:submit="sendEmail()">
@@ -36,6 +39,9 @@ lament-panels::page>
     </x-filament-panels::form>
 </x-filament::page>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 =======
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -7,6 +8,9 @@ TYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 =======
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 >>>>>>> 9b05d0a6 (.)
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+>>>>>>> 4bf9ea78 (.)
 	"http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">

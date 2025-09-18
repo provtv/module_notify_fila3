@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('notify::emails.templates.sunny')
 =======
 @extends('notify::emails.templates.sunny')
@@ -7,6 +8,9 @@ nds('notify::emails.templates.sunny')
 =======
 @extends('notify::emails.templates.sunny')
 >>>>>>> 9b05d0a6 (.)
+=======
+@extends('notify::emails.templates.sunny')
+>>>>>>> 4bf9ea78 (.)
 
 @section('content')
 

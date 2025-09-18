@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -22,6 +23,8 @@ return [
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -30,9 +33,12 @@ return [
         'sort' => 48,
         'description' => 'Gestione dei modelli per le notifiche',
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     ],
     'fields' => [
         'name' => [
@@ -41,17 +47,21 @@ return [
             'placeholder' => 'es: Notifica Scadenza',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => 'Inserisci un nome descrittivo per il template',
 =======
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
             'help' => 'Inserisci un nome descrittivo per il template',
         ],
         'description' => [
             'label' => 'Descrizione',
             'tooltip' => 'Descrizione del template',
             'placeholder' => 'es: Template per le notifiche di scadenza',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'helper_text' => 'Breve descrizione dello scopo del template',
@@ -74,10 +84,14 @@ return [
 =======
             'help' => 'Breve descrizione dello scopo del template',
 >>>>>>> 9b05d0a6 (.)
+=======
+            'help' => 'Breve descrizione dello scopo del template',
+>>>>>>> 4bf9ea78 (.)
         ],
         'subject' => [
             'label' => 'Oggetto',
             'tooltip' => 'Oggetto della notifica',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'placeholder' => 'es: Promemoria appuntamento',
@@ -110,6 +124,8 @@ return [
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
             'placeholder' => 'es: Promemoria: {event_name}',
             'help' => 'Puoi usare le variabili tra parentesi graffe',
         ],
@@ -186,9 +202,12 @@ return [
             'tooltip' => 'Stato di attivazione del template',
             'help' => 'Solo i template attivi possono essere utilizzati',
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         ],
     ],
     'actions' => [
@@ -196,6 +215,7 @@ return [
             'label' => 'Anteprima',
             'tooltip' => 'Visualizza anteprima del template',
             'icon' => 'heroicon-o-eye',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'success_message' => 'Anteprima generata con successo',
@@ -226,6 +246,8 @@ return [
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
             'color' => 'primary',
         ],
         'test' => [
@@ -267,8 +289,11 @@ return [
             'message' => 'Il template è stato duplicato con successo',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     ],
 ];

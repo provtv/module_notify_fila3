@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('beautymail::templates.minty')
 =======
 @extends('beautymail::templates.minty')
@@ -7,6 +8,9 @@ nds('beautymail::templates.minty')
 =======
 @extends('beautymail::templates.minty')
 >>>>>>> 9b05d0a6 (.)
+=======
+@extends('beautymail::templates.minty')
+>>>>>>> 4bf9ea78 (.)
 
 @section('content')
 

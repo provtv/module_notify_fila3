@@ -105,11 +105,14 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Contact whereDeletedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperContact
 =======
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
  * @mixin \Eloquent
  */
 class Contact extends BaseModel
@@ -124,6 +127,7 @@ class Contact extends BaseModel
     /** @return array<string, string> */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function casts(): array
 =======
     public function casts(): array
@@ -131,6 +135,9 @@ class Contact extends BaseModel
 =======
     public function casts(): array
 >>>>>>> 9b05d0a6 (.)
+=======
+    public function casts(): array
+>>>>>>> 4bf9ea78 (.)
     {
         return [
             'id' => 'string',

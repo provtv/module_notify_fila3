@@ -23,6 +23,7 @@ class EmailData extends Data
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $body='';
 
     public array $attachments = [];
@@ -31,6 +32,8 @@ class EmailData extends Data
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     public string $body;
 
     public array $attachments = [];
@@ -45,9 +48,12 @@ class EmailData extends Data
         ?string $body = null
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         Assert::email($to, 'Invalid "to" email format');
         $this->to = $to;
         if (! is_string($from)) {
@@ -85,6 +91,7 @@ class EmailData extends Data
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ( $this->body=='') {
 =======
         if (!isset($this->body)) {
@@ -92,6 +99,9 @@ class EmailData extends Data
 =======
         if (!isset($this->body)) {
 >>>>>>> 9b05d0a6 (.)
+=======
+        if (!isset($this->body)) {
+>>>>>>> 4bf9ea78 (.)
             $this->body = strip_tags($this->body_html);
         }
 

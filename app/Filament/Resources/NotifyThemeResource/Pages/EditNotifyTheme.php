@@ -19,11 +19,14 @@ class EditNotifyTheme extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditR
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Actions\Action> */
 =======
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         return [
             DeleteAction::make(),
         ];

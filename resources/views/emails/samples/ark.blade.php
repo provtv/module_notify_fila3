@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('notify::emails.templates.ark')
 =======
 @extends('notify::emails.templates.ark')
@@ -7,6 +8,9 @@ nds('notify::emails.templates.ark')
 =======
 @extends('notify::emails.templates.ark')
 >>>>>>> 9b05d0a6 (.)
+=======
+@extends('notify::emails.templates.ark')
+>>>>>>> 4bf9ea78 (.)
 
 @section('content')
 

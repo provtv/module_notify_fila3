@@ -15,6 +15,7 @@ use Filament\Forms\Form;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 use Filament\Pages\Page;
@@ -22,6 +23,9 @@ use Filament\Pages\Page;
 =======
 use Filament\Pages\Page;
 >>>>>>> 9b05d0a6 (.)
+=======
+use Filament\Pages\Page;
+>>>>>>> 4bf9ea78 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -36,6 +40,7 @@ use Webmozart\Assert\Assert;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestSmtpPage extends XotBasePage implements HasForms
 =======
 class TestSmtpPage extends Page implements HasForms
@@ -43,6 +48,9 @@ class TestSmtpPage extends Page implements HasForms
 =======
 class TestSmtpPage extends Page implements HasForms
 >>>>>>> 9b05d0a6 (.)
+=======
+class TestSmtpPage extends Page implements HasForms
+>>>>>>> 4bf9ea78 (.)
 {
     use InteractsWithForms;
 

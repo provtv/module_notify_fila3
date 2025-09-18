@@ -20,6 +20,7 @@ class EmailDataEmail extends Mailable
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(public EmailData $email_data)
@@ -29,6 +30,10 @@ class EmailDataEmail extends Mailable
     public function __construct(public EmailData $email_data)
     {
 >>>>>>> 9b05d0a6 (.)
+=======
+    public function __construct(public EmailData $email_data)
+    {
+>>>>>>> 4bf9ea78 (.)
     }
 
     /**
@@ -36,6 +41,7 @@ class EmailDataEmail extends Mailable
      */
     public function envelope(): Envelope
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (null == $this->email_data->from) {
@@ -46,19 +52,25 @@ class EmailDataEmail extends Mailable
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         if ($this->email_data->from == null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if ($this->email_data->from_email == null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $envelope = new Envelope(
@@ -70,14 +82,19 @@ class EmailDataEmail extends Mailable
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
         return new Envelope(
             from: new Address($this->email_data->from_email, $this->email_data->from),
             subject: $this->email_data->subject,
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
     }
 
     /**

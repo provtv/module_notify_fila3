@@ -30,6 +30,7 @@ class EmailDataNotification extends Notification
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(EmailData $emailData)
@@ -39,6 +40,10 @@ class EmailDataNotification extends Notification
     public function __construct(EmailData $emailData)
     {
 >>>>>>> 9b05d0a6 (.)
+=======
+    public function __construct(EmailData $emailData)
+    {
+>>>>>>> 4bf9ea78 (.)
         $this->emailData = $emailData;
     }
 

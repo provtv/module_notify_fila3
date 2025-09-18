@@ -74,6 +74,7 @@ class SendEmail extends Page implements HasForms
         $email_data = EmailData::from($data);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // $from_address = config('mail.from.address');
 
         Mail::to($data['to'])
@@ -83,14 +84,19 @@ class SendEmail extends Page implements HasForms
 =======
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 
         Mail::to($data['to'])->send(
             new EmailDataEmail($email_data)
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
 =======
 >>>>>>> 9b05d0a6 (.)
+=======
+>>>>>>> 4bf9ea78 (.)
 
         Notification::make()
             ->success()
@@ -112,12 +118,16 @@ class SendEmail extends Page implements HasForms
             Action::make('emailFormActions')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 //
 >>>>>>> 90c60faa (.)
 =======
                 //
 >>>>>>> 9b05d0a6 (.)
+=======
+                //
+>>>>>>> 4bf9ea78 (.)
 
                 ->submit('emailFormActions'),
         ];
