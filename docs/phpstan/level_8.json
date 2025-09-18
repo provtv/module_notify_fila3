@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
     "error": "Could not open input file: /var/www/html/ptvx/vendor/bin/phpstan"
 }
@@ -23,3 +24,6 @@ aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> 90c60faa (.)
+=======
+{"totals":{"errors":0,"file_errors":0},"files":{},"errors":[]}
+>>>>>>> 9b05d0a6 (.)

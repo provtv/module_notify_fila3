@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 
@@ -102,6 +103,8 @@ final class NotificationLog extends BaseModel
     }
 }
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -194,4 +197,7 @@ class NotificationLog extends Model
         return $query->where('notifiable_type', $type);
     }
 }
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)

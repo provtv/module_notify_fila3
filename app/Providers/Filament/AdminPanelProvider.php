@@ -15,15 +15,19 @@ use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\SpatieLaravelTranslatablePlugin;
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
     public function panel(Panel $panel): Panel
+<<<<<<< HEAD
 <<<<<<< HEAD
     { 
         $panel->plugins([
@@ -32,6 +36,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
     {
 >>>>>>> 90c60faa (.)
+=======
+    {
+>>>>>>> 9b05d0a6 (.)
         if (! XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
@@ -42,6 +49,7 @@ class AdminPanelProvider extends XotBasePanelProvider
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
        
 
@@ -54,3 +62,8 @@ class AdminPanelProvider extends XotBasePanelProvider
     }
 }
 >>>>>>> 90c60faa (.)
+=======
+        return parent::panel($panel);
+    }
+}
+>>>>>>> 9b05d0a6 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"analyze-translation-files","class":"AnalyzeTranslationFiles","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\AnalyzeTranslationFiles"},{"name":"send-mail-command","class":"SendMailCommand","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\SendMailCommand"},{"name":"telegram-webhook","class":"TelegramWebhook","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\TelegramWebhook"}]
 =======
 <<<<<<< HEAD
@@ -6,6 +7,8 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 9b05d0a6 (.)
 [
     {
         "name": "send-mail-command",
@@ -21,6 +24,7 @@
         "path": null,
         "ns": "Modules\\Notify\\Console\\Commands\\TelegramWebhook"
     }
+<<<<<<< HEAD
 ]
 =======
 [{"name":"send-mail-command","class":"SendMailCommand","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\SendMailCommand"},{"name":"telegram-webhook","class":"TelegramWebhook","module":null,"path":null,"ns":"Modules\\Notify\\Console\\Commands\\TelegramWebhook"}]
@@ -30,3 +34,6 @@
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> 90c60faa (.)
+=======
+]
+>>>>>>> 9b05d0a6 (.)

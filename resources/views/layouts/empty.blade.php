@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 >
 =======
 <html>
 >>>>>>> 90c60faa (.)
+=======
+<html>
+>>>>>>> 9b05d0a6 (.)
 
 <head>
     <title>{{ isset($senderName) ? $senderName : '' }}.</title>

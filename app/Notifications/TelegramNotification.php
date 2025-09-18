@@ -11,6 +11,7 @@ namespace Modules\Notify\Notifications;
 
 use Illuminate\Bus\Queueable;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Modules\Notify\Notifications\Channels\TelegramChannel;
@@ -19,19 +20,29 @@ use Illuminate\Notifications\Notification;
 use InvalidArgumentException;
 use NotificationChannels\Telegram\TelegramMessage;
 >>>>>>> 90c60faa (.)
+=======
+use Illuminate\Notifications\Notification;
+use InvalidArgumentException;
+use NotificationChannels\Telegram\TelegramMessage;
+>>>>>>> 9b05d0a6 (.)
 
 /**
  * Classe per inviare notifiche tramite Telegram.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TelegramNotification extends Notification implements ShouldQueue
 =======
 class TelegramNotification extends Notification
 >>>>>>> 90c60faa (.)
+=======
+class TelegramNotification extends Notification
+>>>>>>> 9b05d0a6 (.)
 {
     use Queueable;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @var string
      */
@@ -52,17 +63,23 @@ class TelegramNotification extends Notification
         $this->message = $message;
         $this->options = $options;
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
      * Create a new notification instance.
      */
     public function __construct()
     {
         // $this->data = $data;
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     }
 
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param mixed $notifiable
      * @return array
@@ -71,13 +88,18 @@ class TelegramNotification extends Notification
     {
         return [TelegramChannel::class];
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
      * @param object $notifiable The entity to be notified
      * @return array<string>
      */
     public function via(object $notifiable): array
     {
         return ['telegram'];
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     }
 
     /**
@@ -96,6 +118,7 @@ class TelegramNotification extends Notification
      * Get the Telegram representation of the notification.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @return string
      */
@@ -103,6 +126,8 @@ class TelegramNotification extends Notification
     {
         return $this->message;
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
      * @param object|null $notifiable The entity to be notified
      * @return TelegramMessage
      */
@@ -128,6 +153,9 @@ class TelegramNotification extends Notification
             ->button('Download Invoice', $url);
         // (Optional) Inline Button with callback. You can handle callback in your bot instance
         // ->buttonWithCallback('Confirm', 'confirm_invoice '.$this->invoice->id)
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     }
 }

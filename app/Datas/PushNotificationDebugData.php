@@ -15,14 +15,20 @@ use Spatie\LaravelData\Data;
 final class PushNotificationDebugData extends Data implements Arrayable
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
     public function __construct(
         private readonly CanReceivePushNotifications $notifiable,
         private readonly MobilePushNotification $notification,
         private readonly MulticastSendReport $sendReport,
     ) {
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     }
 
     public static function make(

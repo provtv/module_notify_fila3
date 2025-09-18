@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 90c60faa (.)
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 9b05d0a6 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#ef3101' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('notify::emails.templates.minty')
 =======
 @extends('notify::emails.templates.minty')
 >>>>>>> 90c60faa (.)
+=======
+@extends('notify::emails.templates.minty')
+>>>>>>> 9b05d0a6 (.)
 
 @section('content')
 

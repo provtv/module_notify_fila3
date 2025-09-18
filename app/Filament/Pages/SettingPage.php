@@ -5,16 +5,22 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Widgets\EnvWidget;
 
 class SettingPage extends XotBasePage
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 use Filament\Pages\Page;
 use Modules\Xot\Filament\Widgets\EnvWidget;
 
 class SettingPage extends Page
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 {
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 

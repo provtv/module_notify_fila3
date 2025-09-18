@@ -54,10 +54,14 @@ abstract class BaseMorphPivot extends MorphPivot
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function casts(): array
 =======
     public function casts(): array
 >>>>>>> 90c60faa (.)
+=======
+    public function casts(): array
+>>>>>>> 9b05d0a6 (.)
     {
         return [
             'id' => 'string',

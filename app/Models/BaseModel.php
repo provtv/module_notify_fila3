@@ -68,10 +68,14 @@ abstract class BaseModel extends Model implements HasMedia
 
     /** @return array<string, string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function casts(): array
 =======
     public function casts(): array
 >>>>>>> 90c60faa (.)
+=======
+    public function casts(): array
+>>>>>>> 9b05d0a6 (.)
     {
         return [
             'id' => 'string',

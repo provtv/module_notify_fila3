@@ -14,10 +14,14 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 use Filament\Pages\Page;
 >>>>>>> 90c60faa (.)
+=======
+use Filament\Pages\Page;
+>>>>>>> 9b05d0a6 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -31,10 +35,14 @@ use Webmozart\Assert\Assert;
  * @property ComponentContainer $emailForm
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestSmtpPage extends XotBasePage implements HasForms
 =======
 class TestSmtpPage extends Page implements HasForms
 >>>>>>> 90c60faa (.)
+=======
+class TestSmtpPage extends Page implements HasForms
+>>>>>>> 9b05d0a6 (.)
 {
     use InteractsWithForms;
 

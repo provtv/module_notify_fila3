@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('beautymail::templates.sunny')
 =======
 @extends('beautymail::templates.sunny')
 >>>>>>> 90c60faa (.)
+=======
+@extends('beautymail::templates.sunny')
+>>>>>>> 9b05d0a6 (.)
 
 @section('content')
 

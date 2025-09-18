@@ -24,12 +24,18 @@ final class FirebaseCloudMessagingChannel
     private static LoggerInterface $logger;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(
         private readonly Messaging $firebaseCloudMessaging,
     ) {
 >>>>>>> 90c60faa (.)
+=======
+    public function __construct(
+        private readonly Messaging $firebaseCloudMessaging,
+    ) {
+>>>>>>> 9b05d0a6 (.)
         self::$logger = Log::driver('firebase') ?? Log::getDefaultDriver();
     }
 

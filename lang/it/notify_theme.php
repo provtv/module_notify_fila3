@@ -1,9 +1,12 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 
 return [
     'navigation' => [
@@ -165,9 +168,12 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'model' => [
         'label' => 'Tema Notifica',
     ],
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 ];

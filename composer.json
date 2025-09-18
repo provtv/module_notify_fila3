@@ -49,16 +49,22 @@
         "laravel-notification-channels/telegram": "*",
         "phpdocumentor/type-resolver": "*",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "spatie/laravel-database-mail-templates": "^3.7",
         "symfony/http-client": "*",
         "symfony/postmark-mailer": "*"
     },
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
         "symfony/http-client": "*",
         "symfony/postmark-mailer": "*"
     },
     "require-dev": {},
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     "repositories": [
         {
             "type": "path",
@@ -96,7 +102,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 90c60faa (.)
+=======
+}
+>>>>>>> 9b05d0a6 (.)

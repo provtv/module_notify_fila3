@@ -12,16 +12,21 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
 >>>>>>> 90c60faa (.)
+=======
+use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
+>>>>>>> 9b05d0a6 (.)
 
 
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableColumns(): array
     {
@@ -30,6 +35,10 @@ class ListContacts extends XotBaseListRecords
     public function getListTableColumns(): array
     {
 >>>>>>> 90c60faa (.)
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> 9b05d0a6 (.)
         return [
             'id' => TextColumn::make('id')
                 ->numeric()

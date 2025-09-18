@@ -24,11 +24,16 @@ class ThemeNotification extends Notification implements ShouldQueue
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(public string $name, public array $view_params)
     {
 >>>>>>> 90c60faa (.)
+=======
+    public function __construct(public string $name, public array $view_params)
+    {
+>>>>>>> 9b05d0a6 (.)
     }
 
     /**

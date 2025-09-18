@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -248,6 +249,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -417,4 +420,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)

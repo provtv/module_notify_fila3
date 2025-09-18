@@ -6,9 +6,12 @@ return [
     'resource' => [
         'name' => 'Invio Telegram',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'plural' => 'Invio Telegram',
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     ],
     'navigation' => [
         'name' => 'Invio Telegram',
@@ -24,6 +27,7 @@ return [
     'fields' => [
         'chat_id' => [
             'label' => 'ID Chat',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'placeholder' => 'Inserisci l\'ID della chat',
             'helper_text' => 'ID della chat Telegram di destinazione',
@@ -41,13 +45,18 @@ return [
             'helper_text' => 'Formato di interpretazione del messaggio',
             'description' => 'Modalità di formattazione del messaggio',
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
         ],
         'message' => [
             'label' => 'Messaggio',
         ],
         'parse_mode' => [
             'label' => 'Formato',
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
             'options' => [
                 'text' => 'Testo semplice',
                 'html' => 'HTML',
@@ -59,16 +68,20 @@ return [
         'send' => [
             'label' => 'Invia Messaggio',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tooltip' => 'Invia un messaggio tramite Telegram',
             'success_message' => 'Messaggio inviato con successo',
             'error_message' => 'Errore nell\'invio del messaggio',
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
             'success' => 'Messaggio inviato con successo',
             'error' => 'Errore durante l\'invio del messaggio',
         ],
         'preview' => [
             'label' => 'Anteprima',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'tooltip' => 'Visualizza un\'anteprima del messaggio',
             'success_message' => 'Anteprima generata',
@@ -84,4 +97,8 @@ return [
         ],
     ],
 >>>>>>> 90c60faa (.)
+=======
+        ],
+    ],
+>>>>>>> 9b05d0a6 (.)
 ];

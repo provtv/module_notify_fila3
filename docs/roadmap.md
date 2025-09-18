@@ -76,6 +76,7 @@ Overall Module Completion: 60%
    - Cache implementation
    - Priority: High
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Versione HEAD
 
@@ -282,3 +283,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)

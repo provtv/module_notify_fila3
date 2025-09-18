@@ -6,15 +6,21 @@ namespace Modules\Notify\Actions;
 
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 use Illuminate\Notifications\Notification as LaravelNotification;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Models\NotificationLog;
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 use Modules\Notify\Notifications\GenericNotification;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -27,6 +33,7 @@ class SendNotificationAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Invia una notifica utilizzando un template.
      *
@@ -190,6 +197,8 @@ class SendNotificationAction
         ));
     }
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
      * Invia una notifica a un destinatario.
      *
      * @param Model $recipient Il destinatario della notifica
@@ -271,5 +280,8 @@ class SendNotificationAction
             ]);
         }
     }
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 }

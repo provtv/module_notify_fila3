@@ -5,24 +5,33 @@ declare(strict_types=1);
 namespace Modules\Notify\Notifications;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 use NotificationChannels\Twilio\TwilioSmsMessage;
 
 /**
  * Notifica generica configurabile per il sistema SaluteOra.
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
  * Supporta l'invio tramite email, SMS (Twilio) e database.
  */
 class GenericNotification extends Notification implements ShouldQueue
@@ -58,11 +67,16 @@ class GenericNotification extends Notification implements ShouldQueue
      * @param array<string, mixed> $data Dati aggiuntivi per la notifica
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
     {
 >>>>>>> 90c60faa (.)
+=======
+    public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
+    {
+>>>>>>> 9b05d0a6 (.)
         $this->title = $title;
         $this->message = $message;
         $this->channels = $channels;
@@ -96,11 +110,15 @@ class GenericNotification extends Notification implements ShouldQueue
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text']) && isset($this->data['action_url'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line */
             $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
 =======
             $mail->action($this->data['action_text'], $this->data['action_url']);
 >>>>>>> 90c60faa (.)
+=======
+            $mail->action($this->data['action_text'], $this->data['action_url']);
+>>>>>>> 9b05d0a6 (.)
         }
 
         // Aggiungi eventuali linee aggiuntive
@@ -112,10 +130,14 @@ class GenericNotification extends Notification implements ShouldQueue
 
         return $mail->salutation('Cordiali saluti,')
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->line('Team il progetto');
 =======
             ->line('Team SaluteOra');
 >>>>>>> 90c60faa (.)
+=======
+            ->line('Team SaluteOra');
+>>>>>>> 9b05d0a6 (.)
     }
 
     /**
@@ -123,24 +145,31 @@ class GenericNotification extends Notification implements ShouldQueue
      *
      * @param mixed $notifiable
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, mixed>
      */
     public function toTwilio($notifiable): array
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
      * @return TwilioSmsMessage
      */
     public function toTwilio($notifiable): TwilioSmsMessage
     {
         $content = "SaluteOra: {$this->title}\n{$this->message}";
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
         
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($content) > 320) {
             $content = mb_substr($content, 0, 317) . '...';
         }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
@@ -157,6 +186,10 @@ class GenericNotification extends Notification implements ShouldQueue
         return (new TwilioSmsMessage())
             ->content($content);
 >>>>>>> 90c60faa (.)
+=======
+        return (new TwilioSmsMessage())
+            ->content($content);
+>>>>>>> 9b05d0a6 (.)
     }
 
     /**
@@ -185,6 +218,7 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
             return $notifiable->getFullName();
         }
@@ -202,6 +236,8 @@ class GenericNotification extends Notification implements ShouldQueue
                 return SafeAttributeCastAction::getString($notifiable, 'name', 'Utente');
             }
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
         if (method_exists($notifiable, 'getFullName')) {
             return $notifiable->getFullName();
         }
@@ -216,7 +252,10 @@ class GenericNotification extends Notification implements ShouldQueue
         
         if (property_exists($notifiable, 'name') && $notifiable->name) {
             return $notifiable->name;
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
         }
         
         return 'Utente';

@@ -15,9 +15,12 @@ class EditContact extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecor
     protected function getHeaderActions(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Actions\Action> */
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
         return [
             DeleteAction::make(),
         ];

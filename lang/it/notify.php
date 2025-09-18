@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -10,6 +11,9 @@ return [
 =======
 return [
 >>>>>>> 90c60faa (.)
+=======
+return [
+>>>>>>> 9b05d0a6 (.)
     'navigation' => [
         'name' => 'Notifica',              // Nome singolare
         'plural' => 'Notifiche',           // Nome plurale
@@ -222,6 +226,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'template' => [
         'navigation' => [
             'label' => 'Template Notifiche',
@@ -274,4 +279,6 @@ return [
     ],
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 ];

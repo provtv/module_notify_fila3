@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 return array (
@@ -125,6 +126,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 return [
     'navigation' => [
         'name' => 'Test Smtp',
@@ -157,4 +160,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)

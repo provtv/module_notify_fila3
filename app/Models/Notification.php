@@ -1,32 +1,43 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 namespace Modules\Notify\Models;
 
 use Modules\Xot\Models\BaseModel;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Notification model for the Notify module.
 =======
  * 
 >>>>>>> 90c60faa (.)
+=======
+ * 
+>>>>>>> 9b05d0a6 (.)
  *
  * @property string $id
  * @property string $type
  * @property string $notifiable_type
  * @property int $notifiable_id
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property array<string, mixed>|string $data
 =======
  * @property string $data
 >>>>>>> 90c60faa (.)
+=======
+ * @property string $data
+>>>>>>> 9b05d0a6 (.)
  * @property \Illuminate\Support\Carbon|null $read_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -34,6 +45,7 @@ use Modules\Xot\Models\BaseModel;
  * @property string|null $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int|null $tenant_id
  * @property int|null $user_id
@@ -44,6 +56,8 @@ use Modules\Xot\Models\BaseModel;
  * @property \Illuminate\Support\Carbon|null $sent_at
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
  * @property-read \Illuminate\Database\Eloquent\Model|null $creator
  * @property-read \Illuminate\Database\Eloquent\Model|null $updater
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
@@ -63,21 +77,28 @@ use Modules\Xot\Models\BaseModel;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereUpdatedBy($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperNotification
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
  * @mixin \Eloquent
  */
 class Notification extends BaseModel
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var list<string> */
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     protected $fillable = [
         'message',
         'type',
         'read_at',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'tenant_id',
         'user_id',
@@ -107,10 +128,15 @@ class Notification extends BaseModel
         ];
     }
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
     ];
 
     protected $casts = [
         'read_at' => 'datetime',
     ];
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 }

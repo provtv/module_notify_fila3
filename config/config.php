@@ -18,6 +18,7 @@ return [
         'Modules\\Notify\\Providers\\NotifyServiceProvider',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*
     |--------------------------------------------------------------------------
     | Email Layout Configuration
@@ -69,4 +70,6 @@ return [
     ],
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
 ];

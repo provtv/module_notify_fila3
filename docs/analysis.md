@@ -59,6 +59,7 @@ Modules/Notify/
 - Security testing
 - Performance testing
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -85,3 +86,5 @@ Modules/Notify/
 
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)

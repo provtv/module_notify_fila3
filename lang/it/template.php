@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -19,6 +20,8 @@ return [
         'icon' => 'notify-template-animated',
         'sort' => 48,
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -26,7 +29,10 @@ return [
         'icon' => 'notify-template-animated',
         'sort' => 48,
         'description' => 'Gestione dei modelli per le notifiche',
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     ],
     'fields' => [
         'name' => [
@@ -34,15 +40,19 @@ return [
             'tooltip' => 'Nome identificativo del template',
             'placeholder' => 'es: Notifica Scadenza',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => 'Inserisci un nome descrittivo per il template',
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
             'help' => 'Inserisci un nome descrittivo per il template',
         ],
         'description' => [
             'label' => 'Descrizione',
             'tooltip' => 'Descrizione del template',
             'placeholder' => 'es: Template per le notifiche di scadenza',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'helper_text' => 'Breve descrizione dello scopo del template',
         ],
@@ -61,10 +71,14 @@ return [
 =======
             'help' => 'Breve descrizione dello scopo del template',
 >>>>>>> 90c60faa (.)
+=======
+            'help' => 'Breve descrizione dello scopo del template',
+>>>>>>> 9b05d0a6 (.)
         ],
         'subject' => [
             'label' => 'Oggetto',
             'tooltip' => 'Oggetto della notifica',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'placeholder' => 'es: Promemoria appuntamento',
             'helper_text' => 'Oggetto visualizzato nella notifica (es. oggetto email)',
@@ -94,6 +108,8 @@ return [
             'label' => 'Ultima modifica',
             'tooltip' => 'Data dell\'ultima modifica del template',
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
             'placeholder' => 'es: Promemoria: {event_name}',
             'help' => 'Puoi usare le variabili tra parentesi graffe',
         ],
@@ -169,7 +185,10 @@ return [
             'label' => 'Attivo',
             'tooltip' => 'Stato di attivazione del template',
             'help' => 'Solo i template attivi possono essere utilizzati',
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
         ],
     ],
     'actions' => [
@@ -177,6 +196,7 @@ return [
             'label' => 'Anteprima',
             'tooltip' => 'Visualizza anteprima del template',
             'icon' => 'heroicon-o-eye',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'success_message' => 'Anteprima generata con successo',
             'error_message' => 'Errore nella generazione dell\'anteprima',
@@ -204,6 +224,8 @@ return [
         'template_updated' => 'Il template è stato aggiornato con successo',
         'template_deleted' => 'Il template è stato eliminato con successo',
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
             'color' => 'primary',
         ],
         'test' => [
@@ -244,6 +266,9 @@ return [
             'title' => 'Template Duplicato',
             'message' => 'Il template è stato duplicato con successo',
         ],
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     ],
 ];

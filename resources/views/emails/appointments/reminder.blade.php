@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 TYPE html>
 =======
 <!DOCTYPE html>
 >>>>>>> 90c60faa (.)
+=======
+<!DOCTYPE html>
+>>>>>>> 9b05d0a6 (.)
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -81,12 +85,17 @@ TYPE html>
         <div class="appointment-details">
             <h3>Dettagli dell'appuntamento:</h3>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <p><strong>Data:</strong> {{ $appointment->starts_at->format('d/m/Y') }}</p>
             <p><strong>Orario:</strong> {{ $appointment->starts_at->format('H:i') }} - {{ $appointment->ends_at->format('H:i') }}</p>
 =======
             <p><strong>Data:</strong> {{ $appointment->date->format('d/m/Y') }}</p>
             <p><strong>Orario:</strong> {{ $appointment->start_time->format('H:i') }} - {{ $appointment->end_time->format('H:i') }}</p>
 >>>>>>> 90c60faa (.)
+=======
+            <p><strong>Data:</strong> {{ $appointment->date->format('d/m/Y') }}</p>
+            <p><strong>Orario:</strong> {{ $appointment->start_time->format('H:i') }} - {{ $appointment->end_time->format('H:i') }}</p>
+>>>>>>> 9b05d0a6 (.)
             <p><strong>Tipo:</strong> {{ $appointment->getTypeText() }}</p>
             @if ($appointment->dentist)
                 <p><strong>Medico:</strong> {{ $appointment->dentist->title }} {{ $appointment->dentist->first_name }} {{ $appointment->dentist->last_name }}</p>
@@ -110,10 +119,14 @@ TYPE html>
         
         <p>Cordiali saluti,<br>
 <<<<<<< HEAD
+<<<<<<< HEAD
         Il Team di il progetto</p>
 =======
         Il Team di SaluteOra</p>
 >>>>>>> 90c60faa (.)
+=======
+        Il Team di SaluteOra</p>
+>>>>>>> 9b05d0a6 (.)
     </div>
     
     <div class="footer">

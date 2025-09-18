@@ -26,10 +26,13 @@ class ContactResource extends XotBaseResource
     public static function getFormSchema(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
         /** @var array<string, \Filament\Forms\Components\Component> */
 =======
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
         return [
             'name' => TextInput::make('name')
                 ->hint(static::trans('fields.name.hint'))

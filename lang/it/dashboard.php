@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -11,6 +12,9 @@ return [
 =======
 return [
 >>>>>>> 90c60faa (.)
+=======
+return [
+>>>>>>> 9b05d0a6 (.)
     'navigation' => [
         'name' => 'Dashboard',
         'plural' => 'Dashboard',
@@ -21,6 +25,7 @@ return [
         'label' => 'Dashboard',
         'sort' => 49,
         'icon' => 'notify-dashboard-animated',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'description' => 'Panoramica del sistema di notifiche',
     ],
@@ -92,6 +97,8 @@ return [
         'no_data' => 'Nessun dato disponibile per il periodo selezionato',
         'loading' => 'Caricamento dati in corso...',
 =======
+=======
+>>>>>>> 9b05d0a6 (.)
     ],
     'widgets' => [
         'total_notifications' => 'Totale Notifiche',
@@ -120,6 +127,9 @@ return [
         'last_30_days' => 'Ultimi 30 giorni',
         'this_month' => 'Questo mese',
         'last_month' => 'Mese scorso',
+<<<<<<< HEAD
 >>>>>>> 90c60faa (.)
+=======
+>>>>>>> 9b05d0a6 (.)
     ],
 ];
