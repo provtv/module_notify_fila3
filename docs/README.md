@@ -283,9 +283,42 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 - [Twilio API](https://www.twilio.com/docs)
 - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging)
 
+<<<<<<< HEAD
+=======
+## Fix PHPStan Implementati
+
+### Errori di Sintassi Risolti (Dicembre 2024)
+
+#### TemplateManagementBusinessLogicTest.php
+- **Problema**: Mancava chiusura della funzione `describe()` alla fine del file
+- **Soluzione**: Aggiunta parentesi graffa di chiusura `});` per completare la struttura Pest
+- **Business Logic**: Test per gestione template email con validazione e versioning
+- **Impatto**: Risolto errore di sintassi che impediva l'esecuzione dei test
+
+#### ThemeManagementBusinessLogicTest.php  
+- **Problema**: Mancava chiusura della funzione `describe()` alla fine del file
+- **Soluzione**: Aggiunta parentesi graffa di chiusura `});` per completare la struttura Pest
+- **Business Logic**: Test per gestione temi personalizzabili con archiviazione e sostituzione
+- **Impatto**: Risolto errore di sintassi che impediva l'esecuzione dei test
+
+### Struttura Test Pest
+I test utilizzano la sintassi Pest con `describe()` per raggruppare test correlati:
+```php
+describe('Business Logic Name', function () {
+    it('can perform specific action', function () {
+        // Test implementation
+    });
+}); // ← Questa chiusura era mancante
+```
+
+>>>>>>> cbac81e (.)
 ---
 
 **Ultimo aggiornamento**: Dicembre 2024  
 **Versione**: 1.0  
+<<<<<<< HEAD
 **Stato**: Test business logic completati (95% copertura)  
+=======
+**Stato**: Test business logic completati (95% copertura) + Fix PHPStan  
+>>>>>>> cbac81e (.)
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
