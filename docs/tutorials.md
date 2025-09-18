@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 https://medium.com/@timothy.withers/customizing-mail-and-notification-templates-in-laravel-4f8c37ce51a
@@ -24,3 +25,6 @@ https://medium.com/@timothy.withers/customizing-mail-and-notification-templates-
 =======
 https://medium.com/@timothy.withers/customizing-mail-and-notification-templates-in-laravel-4f8c37ce51a
 >>>>>>> 4bf9ea78 (.)
+=======
+https://medium.com/@timothy.withers/customizing-mail-and-notification-templates-in-laravel-4f8c37ce51a
+>>>>>>> 688d0704 (first)

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -13,6 +14,10 @@ declare(strict_types=1);
 >>>>>>> 9b05d0a6 (.)
 =======
 >>>>>>> 4bf9ea78 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 688d0704 (first)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -21,7 +26,11 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
     ->ignoreVCS(true)
+=======
+    ->ignoreVCS(true);
+>>>>>>> 688d0704 (first)
 
 $config = new PhpCsFixer\Config();
 
@@ -33,7 +42,11 @@ $config
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
+<<<<<<< HEAD
         //'binary_operator_spaces' => ['align_double_arrow' => false],
+=======
+        // 'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 688d0704 (first)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -48,6 +61,12 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< HEAD
     ->setFinder($finder)
 
 return $config;
+=======
+    ->setFinder($finder);
+
+return $config;
+>>>>>>> 688d0704 (first)
