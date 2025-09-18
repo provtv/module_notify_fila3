@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 TYPE html>
+=======
+<!DOCTYPE html>
+>>>>>>> 90c60faa (.)
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -85,7 +89,11 @@ TYPE html>
             <div class="previous-details">
                 <h3>Dettagli precedenti:</h3>
                 <p><strong>Data:</strong> {{ \Carbon\Carbon::parse($additionalData['previous_appointment']['date'])->format('d/m/Y') }}</p>
+<<<<<<< HEAD
                 <p><strong>Orario:</strong> {{ \Carbon\Carbon::parse($additionalData['previous_appointment']['starts_at'])->format('H:i') }} - {{ \Carbon\Carbon::parse($additionalData['previous_appointment']['ends_at'])->format('H:i') }}</p>
+=======
+                <p><strong>Orario:</strong> {{ \Carbon\Carbon::parse($additionalData['previous_appointment']['start_time'])->format('H:i') }} - {{ \Carbon\Carbon::parse($additionalData['previous_appointment']['end_time'])->format('H:i') }}</p>
+>>>>>>> 90c60faa (.)
                 @if(isset($additionalData['previous_appointment']['dentist']))
                     <p><strong>Medico:</strong> {{ $additionalData['previous_appointment']['dentist'] }}</p>
                 @endif
@@ -95,7 +103,11 @@ TYPE html>
         <div class="new-details">
             <h3>Nuovi dettagli dell'appuntamento:</h3>
             <p><strong>Data:</strong> {{ $appointment->date->format('d/m/Y') }}</p>
+<<<<<<< HEAD
             <p><strong>Orario:</strong> {{ $appointment->starts_at->format('H:i') }} - {{ $appointment->ends_at->format('H:i') }}</p>
+=======
+            <p><strong>Orario:</strong> {{ $appointment->start_time->format('H:i') }} - {{ $appointment->end_time->format('H:i') }}</p>
+>>>>>>> 90c60faa (.)
             <p><strong>Tipo:</strong> {{ $appointment->getTypeText() }}</p>
             @if ($appointment->dentist)
                 <p><strong>Medico:</strong> {{ $appointment->dentist->title }} {{ $appointment->dentist->first_name }} {{ $appointment->dentist->last_name }}</p>
@@ -114,7 +126,11 @@ TYPE html>
         <a href="{{ url('/appointments/' . $appointment->id) }}" class="button">Visualizza Appuntamento</a>
         
         <p>Cordiali saluti,<br>
+<<<<<<< HEAD
         Il Team di il progetto</p>
+=======
+        Il Team di SaluteOra</p>
+>>>>>>> 90c60faa (.)
     </div>
     
     <div class="footer">

@@ -52,6 +52,7 @@
 - [Queue](packages/queue.md)
 - [Performance](packages/performance.md)
 - [Integrazioni](packages/integrations.md) 
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -72,3 +73,5 @@
 
 ---
 
+=======
+>>>>>>> 90c60faa (.)

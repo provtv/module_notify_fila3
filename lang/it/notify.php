@@ -1,11 +1,15 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
     'resource' => [
         'name' => 'Notifica',
     ],
+=======
+return [
+>>>>>>> 90c60faa (.)
     'navigation' => [
         'name' => 'Notifica',              // Nome singolare
         'plural' => 'Notifiche',           // Nome plurale
@@ -217,6 +221,7 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
     'template' => [
         'navigation' => [
             'label' => 'Template Notifiche',
@@ -267,4 +272,6 @@ return [
             'push' => 'Notifica Push',
         ],
     ],
+=======
+>>>>>>> 90c60faa (.)
 ];

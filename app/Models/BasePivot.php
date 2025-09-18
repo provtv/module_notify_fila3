@@ -49,7 +49,11 @@ abstract class BasePivot extends Pivot
     protected $keyType = 'string';
 
     /** @return array<string, string> */
+<<<<<<< HEAD
     protected function casts(): array
+=======
+    public function casts(): array
+>>>>>>> 90c60faa (.)
     {
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int

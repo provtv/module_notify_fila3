@@ -21,11 +21,27 @@ class EmailData extends Data
 
     public string $body_html;
 
+<<<<<<< HEAD
     public string $body='';
 
     public array $attachments = [];
 
     public function __construct(): void {
+=======
+    public string $body;
+
+    public array $attachments = [];
+
+    public function __construct(
+        string $to,
+        string $subject,
+        string $body_html,
+        array $attachments = [],
+        ?string $from = null,
+        ?string $from_email = null,
+        ?string $body = null
+    ) {
+>>>>>>> 90c60faa (.)
         Assert::email($to, 'Invalid "to" email format');
         $this->to = $to;
         if (! is_string($from)) {
@@ -61,7 +77,11 @@ class EmailData extends Data
 
     public function getMimeEmail(): MimeEmail
     {
+<<<<<<< HEAD
         if ( $this->body=='') {
+=======
+        if (!isset($this->body)) {
+>>>>>>> 90c60faa (.)
             $this->body = strip_tags($this->body_html);
         }
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nds('beautymail::templates.minty')
+=======
+@extends('beautymail::templates.minty')
+>>>>>>> 90c60faa (.)
 
 @section('content')
 

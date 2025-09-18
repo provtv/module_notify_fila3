@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lament::icon-button
+=======
+<x-filament::icon-button
+>>>>>>> 90c60faa (.)
     :badge="$unreadNotificationsCount"
     color="gray"
     icon="heroicon-o-bell"

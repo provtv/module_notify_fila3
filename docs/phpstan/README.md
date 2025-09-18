@@ -7,6 +7,7 @@ Data: Wed Apr 23 10:44:20 CEST 2025
 | Livello | Stato | Errori |
 |---------|-------|--------|
 | 1 | ❌ Errore | Errore di esecuzione |
+<<<<<<< HEAD
 
 ## Correzioni PHPStan Applicate
 
@@ -150,3 +151,8 @@ $this->whatsappData = new WhatsAppData(
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
 
+=======
+## Collegamenti
+
+- [Report Generale](/docs/phpstan/README.md)
+>>>>>>> 90c60faa (.)

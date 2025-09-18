@@ -22,8 +22,11 @@ class NotifyThemeResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
         /** @var array<string, \Filament\Forms\Components\Component> */
+=======
+>>>>>>> 90c60faa (.)
         return [
             'lang' => Select::make('lang')
                 ->options(function (): array {

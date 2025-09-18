@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  xmlns="http://www.w3.org/1999/xhtml">
+=======
+<html xmlns="http://www.w3.org/1999/xhtml">
+>>>>>>> 90c60faa (.)
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

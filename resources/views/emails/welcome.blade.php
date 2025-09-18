@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nds('notify::emails.templates.widgets')
+=======
+@extends('notify::emails.templates.widgets')
+>>>>>>> 90c60faa (.)
 
 @section('content')
 

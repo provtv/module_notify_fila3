@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lament::page>
+=======
+<x-filament::page>
+>>>>>>> 90c60faa (.)
 
     <x-filament-panels::form wire:submit="sendEmail()">
         {{ $this->emailForm }}

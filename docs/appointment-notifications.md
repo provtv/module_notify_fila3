@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica
 
 Il sistema di notifica degli appuntamenti di il progetto consente l'invio automatico di email ai pazienti in diverse fasi del ciclo di vita di un appuntamento. Il sistema è completamente integrato con il modulo Dental e utilizza esclusivamente le Spatie Laravel-Queueable-Action per le operazioni asincrone, in linea con le best practice del progetto.
+=======
+# Sistema di Notifica Appuntamenti - SaluteOra
+
+## Panoramica
+
+Il sistema di notifica degli appuntamenti di SaluteOra consente l'invio automatico di email ai pazienti in diverse fasi del ciclo di vita di un appuntamento. Il sistema è completamente integrato con il modulo Dental e utilizza esclusivamente le Spatie Laravel-Queueable-Action per le operazioni asincrone, in linea con le best practice del progetto.
+>>>>>>> 90c60faa (.)
 
 ## Tipi di Notifiche
 
@@ -92,7 +100,10 @@ app(SendAppointmentNotificationAction::class)->execute(
 ### Esecuzione manuale dei promemoria
 
 ```bash
+<<<<<<< HEAD
 
+=======
+>>>>>>> 90c60faa (.)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 

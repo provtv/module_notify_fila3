@@ -66,7 +66,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $deleted_by
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
  * @mixin IdeHelperNotifyTheme
+=======
+>>>>>>> 90c60faa (.)
  * @mixin Eloquent
  */
 class NotifyTheme extends BaseModel
@@ -114,7 +117,11 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
     protected function casts(): array
+=======
+    public function casts(): array
+>>>>>>> 90c60faa (.)
     {
         return [
             'id' => 'string',

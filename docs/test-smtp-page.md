@@ -8,6 +8,7 @@ Il sistema rileverà in automatico la configurazione di default, ma si potrà be
 
 ![test smtp form](test-smtp-page-form.jpg)
 
+<<<<<<< HEAD
 ### Versione HEAD
 
 Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
@@ -24,3 +25,6 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 
 ---
 
+=======
+Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
+>>>>>>> 90c60faa (.)

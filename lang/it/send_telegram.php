@@ -5,7 +5,10 @@ declare(strict_types=1);
 return [
     'resource' => [
         'name' => 'Invio Telegram',
+<<<<<<< HEAD
         'plural' => 'Invio Telegram',
+=======
+>>>>>>> 90c60faa (.)
     ],
     'navigation' => [
         'name' => 'Invio Telegram',
@@ -21,6 +24,7 @@ return [
     'fields' => [
         'chat_id' => [
             'label' => 'ID Chat',
+<<<<<<< HEAD
             'placeholder' => 'Inserisci l\'ID della chat',
             'helper_text' => 'ID della chat Telegram di destinazione',
             'description' => 'Identificativo univoco della chat Telegram',
@@ -36,6 +40,14 @@ return [
             'placeholder' => 'Seleziona il formato',
             'helper_text' => 'Formato di interpretazione del messaggio',
             'description' => 'Modalità di formattazione del messaggio',
+=======
+        ],
+        'message' => [
+            'label' => 'Messaggio',
+        ],
+        'parse_mode' => [
+            'label' => 'Formato',
+>>>>>>> 90c60faa (.)
             'options' => [
                 'text' => 'Testo semplice',
                 'html' => 'HTML',
@@ -46,14 +58,18 @@ return [
     'actions' => [
         'send' => [
             'label' => 'Invia Messaggio',
+<<<<<<< HEAD
             'tooltip' => 'Invia un messaggio tramite Telegram',
             'success_message' => 'Messaggio inviato con successo',
             'error_message' => 'Errore nell\'invio del messaggio',
+=======
+>>>>>>> 90c60faa (.)
             'success' => 'Messaggio inviato con successo',
             'error' => 'Errore durante l\'invio del messaggio',
         ],
         'preview' => [
             'label' => 'Anteprima',
+<<<<<<< HEAD
             'tooltip' => 'Visualizza un\'anteprima del messaggio',
             'success_message' => 'Anteprima generata',
             'error_message' => 'Errore nella generazione dell\'anteprima',
@@ -64,4 +80,8 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio del messaggio Telegram',
         'confirmation' => 'Sei sicuro di voler inviare questo messaggio Telegram?',
     ],
+=======
+        ],
+    ],
+>>>>>>> 90c60faa (.)
 ];

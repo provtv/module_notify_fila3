@@ -1,9 +1,12 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 
+=======
+>>>>>>> 90c60faa (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;

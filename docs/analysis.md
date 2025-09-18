@@ -58,6 +58,7 @@ Modules/Notify/
 - Integration tests with dependent modules
 - Security testing
 - Performance testing
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -82,3 +83,5 @@ Modules/Notify/
 
 ---
 
+=======
+>>>>>>> 90c60faa (.)

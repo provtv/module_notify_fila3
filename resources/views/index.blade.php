@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nds('notify::layouts.master')
+=======
+@extends('notify::layouts.master')
+>>>>>>> 90c60faa (.)
 
 @section('content')
     <h1>Hello World</h1>

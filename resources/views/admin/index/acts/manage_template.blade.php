@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nds('adm_theme::layouts.app')
+=======
+@extends('adm_theme::layouts.app')
+>>>>>>> 90c60faa (.)
 @section('content')
     <a class="btn btn-primary">+</a>
     <table class="table table-bordered">

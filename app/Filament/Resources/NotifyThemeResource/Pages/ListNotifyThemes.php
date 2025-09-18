@@ -12,7 +12,11 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+use Modules\Xot\Filament\Resources\XotBaseResource\RelationManager\XotBaseRelationManager;
+>>>>>>> 90c60faa (.)
 
 
 
@@ -22,10 +26,15 @@ class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
+<<<<<<< HEAD
     public function getTableColumns(): array
     {
         /** @var array<string, \Filament\Tables\Columns\Column> */
         /** @var array<string, \Filament\Tables\Columns\Column> */
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> 90c60faa (.)
         return [
             'id' => Columns\TextColumn::make('id')
                 ->sortable(),

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 TYPE html>
+=======
+<!DOCTYPE html>
+>>>>>>> 90c60faa (.)
 <html lang="en">
     <head>
         <meta charset="utf-8">

@@ -1,6 +1,9 @@
 <?php
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 90c60faa (.)
 
 return [
     'navigation' => [
@@ -161,7 +164,10 @@ return [
             'message' => 'Il tema è stato impostato come predefinito',
         ],
     ],
+<<<<<<< HEAD
     'model' => [
         'label' => 'Tema Notifica',
     ],
+=======
+>>>>>>> 90c60faa (.)
 ];

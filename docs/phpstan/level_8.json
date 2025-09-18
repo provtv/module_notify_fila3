@@ -1,3 +1,25 @@
+<<<<<<< HEAD
 {
     "error": "Could not open input file: /var/www/html/ptvx/vendor/bin/phpstan"
 }
+=======
+<<<<<<< HEAD
+
+{"totals":{"errors":0,"file_errors":0},"files":{},"errors":[]}
+aurmich/dev
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+{"totals":{"errors":0,"file_errors":0},"files":{},"errors":[]}
+=======
+
+{"totals":{"errors":0,"file_errors":0},"files":{},"errors":[]}
+aurmich/dev
+>>>>>>> aurmich/dev
+=======
+
+{"totals":{"errors":0,"file_errors":0},"files":{},"errors":[]}
+aurmich/dev
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+>>>>>>> 90c60faa (.)

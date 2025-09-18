@@ -9,7 +9,10 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType query()
+<<<<<<< HEAD
  * @mixin IdeHelperNotificationType
+=======
+>>>>>>> 90c60faa (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model

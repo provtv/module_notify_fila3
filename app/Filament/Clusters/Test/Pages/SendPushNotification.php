@@ -64,6 +64,7 @@ class SendPushNotification extends Page implements HasForms
          * Callback per mappare i dispositivi in opzioni per il select.
          */
         $callback = function ($item) {
+<<<<<<< HEAD
             /** @var mixed $item */
             if (!is_object($item)) {
                 return [];
@@ -91,17 +92,59 @@ class SendPushNotification extends Page implements HasForms
             $label = $fullName.' ('.($robot ?? '').') '.$tokenSuffix;
             
             return [$token => $label];
+=======
+            // Verifichiamo che $item sia un oggetto
+            if (!$item) {
+                return [];
+            }
+            
+            // Verifichiamo che $item abbia le proprietà necessarie
+            if (!$item->profile || !property_exists($item->profile, 'full_name')) {
+                return [];
+            }
+            
+            // Otteniamo il token
+            $token = $item->push_notifications_token;
+            if (!$token) {
+                return [];
+            }
+            
+            // Otteniamo il nome completo
+            $fullName = $item->profile->full_name;
+            if (!is_string($fullName)) {
+                $fullName = 'Utente';
+            }
+            
+            // Otteniamo il robot
+            $robot = '';
+            if ($item->device && 
+                property_exists($item->device, 'robot') &&
+                is_string($item->device->robot)) {
+                $robot = $item->device->robot;
+            } else {
+                $robot = null;
+            }
+            
+            // Creiamo la label con gli ultimi 5 caratteri del token
+            $tokenSuffix = mb_substr($token, -5);
+            
+            return [$token => $fullName.' ('.$robot.') '.$tokenSuffix];
+>>>>>>> 90c60faa (.)
         };
 
         /**
          * Callback per filtrare i dispositivi.
          */
         $filterCallback = function ($item): bool {
+<<<<<<< HEAD
             if (!is_object($item)) {
                 return false;
             }
             $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
             return is_object($profile);
+=======
+            return $item && $item->profile !== null;
+>>>>>>> 90c60faa (.)
         };
 
         $to = $devices

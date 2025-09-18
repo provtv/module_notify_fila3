@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 90c60faa (.)
 return [
     'resource' => [
         'name' => 'Contact',
@@ -185,6 +188,11 @@ return [
         'verification_failed' => [
             'title' => 'Errore Verifica',
             'message' => 'Impossibile verificare il contatto: :error',
+<<<<<<< HEAD
         ]
     ]
+=======
+        ],
+    ],
+>>>>>>> 90c60faa (.)
 ];

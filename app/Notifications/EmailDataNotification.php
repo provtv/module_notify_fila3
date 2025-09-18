@@ -28,7 +28,12 @@ class EmailDataNotification extends Notification
      *
      * @param EmailData $emailData I dati dell'email da inviare
      */
+<<<<<<< HEAD
     public function __construct(): void {
+=======
+    public function __construct(EmailData $emailData)
+    {
+>>>>>>> 90c60faa (.)
         $this->emailData = $emailData;
     }
 

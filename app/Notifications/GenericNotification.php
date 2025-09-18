@@ -4,15 +4,25 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications;
 
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 
+=======
+>>>>>>> 90c60faa (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+<<<<<<< HEAD
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
+=======
+use NotificationChannels\Twilio\TwilioSmsMessage;
+
+/**
+ * Notifica generica configurabile per il sistema SaluteOra.
+>>>>>>> 90c60faa (.)
  * Supporta l'invio tramite email, SMS (Twilio) e database.
  */
 class GenericNotification extends Notification implements ShouldQueue
@@ -47,7 +57,12 @@ class GenericNotification extends Notification implements ShouldQueue
      * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
      * @param array<string, mixed> $data Dati aggiuntivi per la notifica
      */
+<<<<<<< HEAD
     public function __construct(): void {
+=======
+    public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
+    {
+>>>>>>> 90c60faa (.)
         $this->title = $title;
         $this->message = $message;
         $this->channels = $channels;
@@ -80,8 +95,12 @@ class GenericNotification extends Notification implements ShouldQueue
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text']) && isset($this->data['action_url'])) {
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line */
             $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
+=======
+            $mail->action($this->data['action_text'], $this->data['action_url']);
+>>>>>>> 90c60faa (.)
         }
 
         // Aggiungi eventuali linee aggiuntive
@@ -92,24 +111,37 @@ class GenericNotification extends Notification implements ShouldQueue
         }
 
         return $mail->salutation('Cordiali saluti,')
+<<<<<<< HEAD
             ->line('Team il progetto');
+=======
+            ->line('Team SaluteOra');
+>>>>>>> 90c60faa (.)
     }
 
     /**
      * Ottiene la rappresentazione SMS della notifica.
      *
      * @param mixed $notifiable
+<<<<<<< HEAD
      * @return array<string, mixed>
      */
     public function toTwilio($notifiable): array
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
+=======
+     * @return TwilioSmsMessage
+     */
+    public function toTwilio($notifiable): TwilioSmsMessage
+    {
+        $content = "SaluteOra: {$this->title}\n{$this->message}";
+>>>>>>> 90c60faa (.)
         
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($content) > 320) {
             $content = mb_substr($content, 0, 317) . '...';
         }
         
+<<<<<<< HEAD
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
@@ -121,6 +153,10 @@ class GenericNotification extends Notification implements ShouldQueue
             'content' => $content,
             'to' => $to,
         ];
+=======
+        return (new TwilioSmsMessage())
+            ->content($content);
+>>>>>>> 90c60faa (.)
     }
 
     /**
@@ -148,6 +184,7 @@ class GenericNotification extends Notification implements ShouldQueue
     protected function getRecipientName($notifiable): string
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
+<<<<<<< HEAD
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
             return $notifiable->getFullName();
         }
@@ -164,6 +201,22 @@ class GenericNotification extends Notification implements ShouldQueue
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'name', 'Utente');
             }
+=======
+        if (method_exists($notifiable, 'getFullName')) {
+            return $notifiable->getFullName();
+        }
+        
+        if (property_exists($notifiable, 'full_name') && $notifiable->full_name) {
+            return $notifiable->full_name;
+        }
+        
+        if (property_exists($notifiable, 'first_name') && $notifiable->first_name) {
+            return $notifiable->first_name;
+        }
+        
+        if (property_exists($notifiable, 'name') && $notifiable->name) {
+            return $notifiable->name;
+>>>>>>> 90c60faa (.)
         }
         
         return 'Utente';
